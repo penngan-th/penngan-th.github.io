@@ -1926,6 +1926,12 @@ body {
   margin-right: 15px;
 }
 
+@media (max-width: 425px) {
+  .filter-bar .filter-bar-tab .nav-item:nth-child(2) {
+    margin-right: 0px;
+  }
+}
+
 .filter-bar .filter-bar-tab .nav-item .nav-link {
   font-size: 1.8rem;
   padding: 0;

@@ -627,6 +627,9 @@
       margin-bottom: 0;
       &:nth-child(2) {
         margin-right: 15px;
+        @media #{$small_mobile_one} {
+          margin-right: 0px;
+        }
       }
       .nav-link {
         font-size: $display-11;
