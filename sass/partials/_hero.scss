@@ -129,16 +129,21 @@
       @media #{$large_mobile} {
         font-size: $display-4;
         line-height: 65px;
+        text-align: left;
       }
       @media #{$device-481} {
         font-size: $primary-font;
         line-height: 50px;
+        text-align: left;
       }
     }
     .section__desc {
       font-size: $display-13;
       line-height: 32px;
       margin-bottom: 36px;
+      @media #{$small_mobile} {
+        text-align: left;
+      }
     }
   }
   .btn-box {
@@ -149,7 +154,7 @@
       -ms-flex-wrap: wrap;
       flex-wrap: wrap;
       -ms-flex-pack: justify;
-      justify-content: center;
+      justify-content: start;
     }
   }
   .hero-btn-right {
@@ -201,6 +206,9 @@
   .single-slide-item {
     padding-top: 140px;
     padding-bottom: 0;
+    @media #{$small_mobile} {
+      padding-top: 40px;
+    }
     @media #{$small_mobile_three} {
       padding-top: 150px;
     }
@@ -255,9 +263,157 @@
   }
   .slide-bg1 {
     background-image: url("../images/slider-img4.jpg");
+    @media #{$small_mobile} {
+      background-image: url("../images/slider-img7.jpg");
+      height: 364px;
+      background-repeat: no-repeat;
+      padding-bottom: 378px;
+    }
   }
 }
 
+
+.slider-area21 {
+  .single-slide-item {
+    padding-top: 140px;
+    padding-bottom: 0;
+    @media #{$small_mobile} {
+      padding-top: 40px;
+    }
+    @media #{$small_mobile_three} {
+      padding-top: 150px;
+    }
+    .col-lg-6 {
+      @media #{$laptop_m_four} {
+        -ms-flex: 0 0 63%;
+        flex: 0 0 63%;
+        max-width: 63%;
+      }
+      @media #{$tab_device} {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+      }
+      @media #{$large_mobile} {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+      }
+      @media #{$small_mobile} {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+      }
+    }
+    .section-heading {
+      @media #{$large_mobile} {
+        text-align: center;
+      }
+      @media #{$small_mobile} {
+        text-align: center;
+      }
+      .section__title {
+        font-size: $display-3;
+        line-height: 75px;
+        @media #{$large_mobile_three} {
+          font-size: $display-4;
+          line-height: 65px;
+        }
+        @media #{$small_mobile_three} {
+          font-size: $primary-font;
+          line-height: 50px;
+        }
+      }
+    }
+    &:before {
+      display: none;
+    }
+    &:after {
+      opacity: 0.7;
+    }
+  }
+    .slide-bg1 {
+        background-image: url("../images/slider-img41.jpg");
+        @media #{$small_mobile} {
+          background-image: url("../images/slider-img7.jpg");
+          height: 364px;
+          background-repeat: no-repeat;
+          padding-bottom: 378px;
+        }
+    }
+}
+
+
+.slider-area22 {
+  .single-slide-item {
+    padding-top: 140px;
+    padding-bottom: 0;
+    @media #{$small_mobile} {
+      padding-top: 40px;
+    }
+    @media #{$small_mobile_three} {
+      padding-top: 150px;
+    }
+    .col-lg-6 {
+      @media #{$laptop_m_four} {
+        -ms-flex: 0 0 63%;
+        flex: 0 0 63%;
+        max-width: 63%;
+      }
+      @media #{$tab_device} {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+      }
+      @media #{$large_mobile} {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+      }
+      @media #{$small_mobile} {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+      }
+    }
+    .section-heading {
+      @media #{$large_mobile} {
+        text-align: center;
+      }
+      @media #{$small_mobile} {
+        text-align: center;
+      }
+      .section__title {
+        font-size: $display-3;
+        line-height: 75px;
+        @media #{$large_mobile_three} {
+          font-size: $display-4;
+          line-height: 65px;
+        }
+        @media #{$small_mobile_three} {
+          font-size: $primary-font;
+          line-height: 50px;
+        }
+      }
+    }
+    &:before {
+      display: none;
+    }
+    &:after {
+      opacity: 0.7;
+    }
+  }
+
+    .slide-bg1 {
+        background-image: url("../images/slider-img42.jpg");
+        @media #{$small_mobile} {
+          background-image: url("../images/slider-img7.jpg");
+          height: 364px;
+          background-repeat: no-repeat;
+          padding-bottom: 378px;
+        }
+    }
+}
 /*-===============================
     slider-area 3
 ===============================-*/
@@ -381,6 +537,7 @@
     padding-bottom: 0;
   }
   @media #{$small_mobile} {
+    margin-top: 50px;
     padding-bottom: 0;
   }
   .how-we-work-wrap {
