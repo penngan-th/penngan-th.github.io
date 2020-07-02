@@ -66,7 +66,7 @@
     &.social-profile {
       li {
         a {
-          background-color: rgba(81, 190, 120, 0.1);
+          background-color: $theme-color-8;
           color: $theme-color-2;
           &:hover {
             color: $white;
@@ -503,7 +503,7 @@
               @include transition(0.3s);
               @include border-radius(30px);
               &:hover {
-                background-color: rgba(81, 190, 120, 0.1);
+                background-color: $theme-color-8;
                 color: $theme-color-2;
               }
             }

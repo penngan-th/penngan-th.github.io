@@ -8,16 +8,16 @@
       }
       .theme-btn {
         &.x1 {
-          color: #4c617f;
-          background-color: #4c617f2e;
+          color: $theme-color-2;
+          background-color: $theme-color-8;
           &.active {
-            background-color: #4c617f;
+            background-color: $theme-color-2;
             color: $white;
           }
         }
         &.x2 {
           color: $theme-color-2;
-          background-color: rgba(81, 190, 120, 0.1);
+          background-color: $theme-color-8;
           &.active {
             background-color: $theme-color-2;
             color: $white;

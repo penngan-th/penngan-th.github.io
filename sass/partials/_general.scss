@@ -56,7 +56,7 @@
   text-transform: uppercase;
   font-size: $default-font-3;
   color: $theme-color-2;
-  background-color: rgba(81, 190, 120, 0.1);
+  background-color: $theme-color-8;
   padding: 0 10px;
   @include border-radius(5px);
   letter-spacing: 0.6px;
@@ -502,7 +502,7 @@
       outline: none;
     }
     &:hover {
-      background-color: rgba(81, 190, 120, 0.1);
+      background-color: $theme-color-8;
       color: $theme-color-2;
     }
   }
@@ -636,7 +636,7 @@
         width: 45px;
         height: 45px;
         line-height: 50px;
-        background-color: rgba(81, 190, 120, 0.1);
+        background-color: $theme-color-8;
         color: $theme-color-2;
         span {
           display: block;
@@ -653,7 +653,7 @@
         border: none;
         height: 45px;
         line-height: 50px;
-        background-color: rgba(81, 190, 120, 0.1);
+        background-color: $theme-color-8;
         color: $theme-color-2;
         span {
           display: block;
@@ -726,7 +726,7 @@
       }
     }
     .view-btn {
-      background-color: rgba(81, 190, 120, 0.1);
+      background-color: $theme-color-8;
       border-color: rgba(81, 190, 120, 0.3);
       color: $theme-color-2;
       &:hover {

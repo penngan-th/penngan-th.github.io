@@ -82,7 +82,7 @@
 }
 
 .single-slide-item {
-  position: relative;
+ 
   background-position: center center;
   background-size: cover;
   color: $white;
@@ -366,10 +366,10 @@
 }
 
 .our-post-content {
-  background: #429b85;
-  background: -moz-linear-gradient(-45deg,  #429b85 0%, #5f7b8c 100%);
-  background: -webkit-linear-gradient(-45deg,  #429b85 0%,#5f7b8c 100%);
-  background: linear-gradient(135deg,  #429b85 0%,#5f7b8c 100%);
+  background: $theme-color;
+  background: -moz-linear-gradient(-45deg,  $theme-color 0%,$theme-color-4 100%);
+  background: -webkit-linear-gradient(-45deg,  $theme-color 0%,$theme-color-4 100%);
+  background: linear-gradient(135deg,  $theme-color 0%,$theme-color-4 100%);
   margin-top: 150px;
   padding: 30px 0;
   position: relative;

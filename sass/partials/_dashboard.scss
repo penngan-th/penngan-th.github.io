@@ -227,7 +227,7 @@
   height: 40px;
   line-height: 40px;
   @include border-radius(50%);
-  background-color: rgba(81, 190, 120, 0.1);
+  background-color: $theme-color-8;
   color: $theme-color-2;
   font-size: $display-14;
   outline: none !important;

@@ -1467,7 +1467,7 @@
     padding: 12px 20px;
     @include transition(0.3s);
     &.active {
-      background-color: rgba(81, 190, 120, 0.1);
+      background-color: $theme-color-8;
     }
     &:hover {
       background-color: rgba(127, 136, 151, 0.1);

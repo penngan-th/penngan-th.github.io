@@ -111,7 +111,7 @@
   -ms-flex-align: center;
   align-items: center;
   @include transition(0.3s);
-  background-color: rgba(81, 190, 120, 0.1);
+  background-color: $theme-color-8;
   @include border-radius(30px);
   padding: 4px 16px;
   &:hover {

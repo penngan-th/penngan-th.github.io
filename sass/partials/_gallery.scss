@@ -16,7 +16,7 @@
     font-weight: $font-weight-medium;
     &:hover {
       color: $theme-color-2;
-      background-color: rgba(81, 190, 120, 0.1);
+      background-color: $theme-color-8;
     }
     &.active {
       color: $white;

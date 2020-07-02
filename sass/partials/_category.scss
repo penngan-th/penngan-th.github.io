@@ -176,7 +176,7 @@
   }
   .theme-btn {
     background-color: $white;
-    color: #55ad9d;
+    color: $theme-color-9;
     line-height: 40px;
     padding-right: 20px;
     padding-left: 20px;
@@ -196,7 +196,7 @@
     top: 0;
     height: 100%;
     width: 100%;
-    background-color: #55ad9d;
+    background-color: $theme-color-9;
     opacity: .80;
     content: "";
     @include border-radius(4px);
@@ -240,7 +240,7 @@
     width: 60px;
     height: 60px;
     line-height: 60px;
-    background-color: rgba(81, 190, 120, 0.1);
+    background-color: $theme-color-8;
     font-size: $display-7;
   }
   .cat__title {

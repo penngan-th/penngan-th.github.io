@@ -109,7 +109,7 @@
   align-items: center;
 }
 .card__label-text {
-  background-color: rgba(81, 190, 120, 0.1);
+  background-color: $theme-color-8;
   display: inline-block;
   @include border-radius(30px);
   color: $theme-color-2;
