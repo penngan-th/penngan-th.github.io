@@ -816,3 +816,19 @@
     display: block !important;
   }
 }
+
+/*========== Image Tab ===========*/
+.tab-img {
+  height: 120px; 
+  width: auto;
+  margin-left: 0.5px;
+  margin-right: 0.5px;
+ 
+  @media #{$small_mobile} {
+    height: 60px; 
+    width: auto;
+    margin-left: 1px;
+    margin-right: 1px;
+  }
+}
+ 

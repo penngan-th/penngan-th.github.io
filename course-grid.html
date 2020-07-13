@@ -120,7 +120,7 @@
                                 </nav>
                                 <div class="logo-right-button">
                                     <ul>
-                                        <li><a href="แ.html" class="theme-btn">ติดต่อเรา</a></li>
+                                        <li><a href="contact.html" class="theme-btn">ติดต่อเรา</a></li>
                                     </ul>
                                     <div class="side-menu-open">
                                         <i class="la la-bars"></i>
@@ -175,7 +175,7 @@
 <!-- ================================
     START BREADCRUMB AREA
 ================================= -->
-<section class="breadcrumb-area">
+<section class="breadcrumb-area-course">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
@@ -204,35 +204,23 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <div class="filter-bar d-flex justify-content-between align-items-center">
-                        <ul class="filter-bar-tab nav nav-tabs align-items-center" id="myTab" role="tablist">
-                            <li class="nav-item">
-                                <a class="nav-link2 active" id="dc-view-tab" data-toggle="tab" href="#grid-view" onclick="switchTab(1)" role="tab" aria-controls="grid-view" aria-selected="true">
-                                    ทักษะการใช้ดิจิทัล
+                    <div class="section-tab">
+                        <ul class="nav nav-tabs justify-content-center text-center" id="myTab" role="tablist">
+                            <li role="presentation">
+                                <a  id="dc-view-tab" data-toggle="tab" href="#grid-view" class="tab-img-btn active" onclick="switchTab(1)" role="tab" aria-controls="grid-view" aria-selected="false">
+                                    <img src="images/mastermenu1.png" class="tab-img" alt=""> 
                                 </a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link2" id="dw-view-tab" data-toggle="tab" href="#list-view" onclick="switchTab(2)" role="tab" aria-controls="list-view" aria-selected="false">
-                                    สร้างงานด้วยดิจิทัล
+                            <li role="presentation">
+                                <a  id="dw-view-tab" data-toggle="tab" href="#list-view" class="tab-img-btn" onclick="switchTab(2)" role="tab" aria-controls="list-view" aria-selected="true">
+                                    <img src="images/mastermenu2.png" class="tab-img" alt=""> 
                                 </a>
                             </li>
-                            <li class="nav-item d-none d-md-flex">แสดงผล 1-8 บทเรียนจาก 40 บทเรียน</li>
                         </ul>
-                        <div class="sort-ordering d-none d-md-flex">
-                            <div class="dropdown bootstrap-select sort-ordering-select">
-                                <select class="sort-ordering-select" tabindex="-98">
-                                    <option value="all-category">ทุกประเภท</option>
-                                    <option value="newest">บทเรียนใหม่ที่สุด</option>
-                                    <option value="oldest">บทเรียนเก่าที่สุด</option>
-                                    <option value="high-rated">บทเรียนคะแนนดีที่สุด</option>
-                                    <option value="popular-courses">บทเรียนที่นิยมที่สุด</option>
-                                    <option value="high-to-low">ราคา: แพง - ถูก</option>
-                                    <option value="low-to-high">ราคา: ถูก - แพง</option>
-                                </select>
-                            </div>
-                        </div>
+
+                        
                     </div>
-                </div><!-- end col-lg-12 -->
+                </div>
             </div><!-- end row -->
             <div class="course-content-wrapper mt-4">
                 <div class="row">
@@ -256,6 +244,33 @@
                                                 <h3 class="card__title">
                                                     <a href="lesson-details.html">"5 วิธีเริ่มต้นทำทุกธุรกิจ" ที่ได้กำไรชัวร์ๆ แบบไม่มโน</a>
                                                 </h3>
+                                                <div class="rating-wrap d-flex mt-2 mb-3">
+                                                    <ul class="review-stars">
+                                                        <li><span class="la la-star"></span></li>
+                                                        <li><span class="la la-star"></span></li>
+                                                        <li><span class="la la-star"></span></li>
+                                                        <li><span class="la la-star"></span></li>
+                                                        <li><span class="la la-star-o"></span></li>
+                                                    </ul>
+                                                    <span class="star-rating-wrap">
+                                                    <span class="star__rating">4.4</span>
+                                                    <span class="star__count">(20)</span>
+                                                </span>
+                                                </div><!-- end rating-wrap -->
+                                                <div class="card-action">
+                                                    <ul class="card-duration d-flex justify-content-between align-items-center">
+                                                        <li>
+                                                        <span class="meta__date">
+                                                            <i class="la la-play-circle"></i> 45 บทเรียน
+                                                        </span>
+                                                        </li>
+                                                        <li>
+                                                        <span class="meta__date">
+                                                            <i class="la la-clock-o"></i> 3 ชั่วโมง 20 นาที
+                                                        </span>
+                                                        </li>
+                                                    </ul>
+                                                </div><!-- end card-action -->
                                             </div><!-- end card-content -->
                                         </div><!-- end card-item -->
                                     </div><!-- end col-lg-6 -->
@@ -274,6 +289,125 @@
                                                 <h3 class="card__title">
                                                     <a href="lesson-details.html">4 ข้อต้องรู้ เปลี่ยนจาก Offline เป็น Online</a>
                                                 </h3>
+                                                <div class="rating-wrap d-flex mt-2 mb-3">
+                                                    <ul class="review-stars">
+                                                        <li><span class="la la-star"></span></li>
+                                                        <li><span class="la la-star"></span></li>
+                                                        <li><span class="la la-star"></span></li>
+                                                        <li><span class="la la-star"></span></li>
+                                                        <li><span class="la la-star-o"></span></li>
+                                                    </ul>
+                                                    <span class="star-rating-wrap">
+                                                    <span class="star__rating">4.4</span>
+                                                    <span class="star__count">(20)</span>
+                                                </span>
+                                                </div><!-- end rating-wrap -->
+                                                <div class="card-action">
+                                                    <ul class="card-duration d-flex justify-content-between align-items-center">
+                                                        <li>
+                                                        <span class="meta__date">
+                                                            <i class="la la-play-circle"></i> 45 บทเรียน
+                                                        </span>
+                                                        </li>
+                                                        <li>
+                                                        <span class="meta__date">
+                                                            <i class="la la-clock-o"></i> 3 ชั่วโมง 20 นาที
+                                                        </span>
+                                                        </li>
+                                                    </ul>
+                                                </div><!-- end card-action -->
+                                            </div><!-- end card-content -->
+                                        </div><!-- end card-item -->
+                                    </div><!-- end col-lg-6 -->
+
+                                    <div class="col-lg-6">
+                                        <div class="card-item card-preview" data-tooltip-content="#tooltip_content_5">
+                                            <div class="card-image">
+                                                <a href="lesson-details2.html" class="card__img"><img src="images/img-02.jpg" alt=""></a>
+                                            </div><!-- end card-image -->
+                                            <div class="card-content">
+                                                <p class="card__label">
+                                                    <span class="card__label-text">คอร์สความปลอดภัยยุคดิจิทัล</span>
+                                                    <span class="card__author" style="margin-left: auto;">
+                                                        <a href="teacher-detail.html">efinanceThai TV</a>
+                                                    </span>
+                                                </p>
+                                                <h3 class="card__title">
+                                                    <a href="lesson-details.html">สรุป พ.ร.บ. ข้อมูลส่วนบุคคล คุ้มครองแค่ไหน เราได้ประโยชน์อะไร? - ExecutiveTalk Podcast</a>
+                                                </h3>
+                                                <div class="rating-wrap d-flex mt-2 mb-3">
+                                                    <ul class="review-stars">
+                                                        <li><span class="la la-star"></span></li>
+                                                        <li><span class="la la-star"></span></li>
+                                                        <li><span class="la la-star"></span></li>
+                                                        <li><span class="la la-star"></span></li>
+                                                        <li><span class="la la-star-o"></span></li>
+                                                    </ul>
+                                                    <span class="star-rating-wrap">
+                                                    <span class="star__rating">4.4</span>
+                                                    <span class="star__count">(20)</span>
+                                                </span>
+                                                </div><!-- end rating-wrap -->
+                                                <div class="card-action">
+                                                    <ul class="card-duration d-flex justify-content-between align-items-center">
+                                                        <li>
+                                                        <span class="meta__date">
+                                                            <i class="la la-play-circle"></i> 45 บทเรียน
+                                                        </span>
+                                                        </li>
+                                                        <li>
+                                                        <span class="meta__date">
+                                                            <i class="la la-clock-o"></i> 3 ชั่วโมง 20 นาที
+                                                        </span>
+                                                        </li>
+                                                    </ul>
+                                                </div><!-- end card-action -->
+                                            </div><!-- end card-content -->
+                                            
+                                        </div><!-- end card-item -->
+                                    </div><!-- end col-lg-6 -->
+                                    <div class="col-lg-6">
+                                        <div class="card-item card-preview" data-tooltip-content="#tooltip_content_5">
+                                            <div class="card-image">
+                                                <a href="lesson-details2.html" class="card__img"><img src="images/img-01.jpg" alt=""></a>
+                                            </div><!-- end card-image -->
+                                            <div class="card-content">
+                                                <p class="card__label">
+                                                    <span class="card__label-text">คอร์สความปลอดภัยยุคดิจิทัล</span>
+                                                    <span class="card__author" style="margin-left: auto;">
+                                                        <a href="teacher-detail.html">ETDA Channel</a>
+                                                    </span>
+                                                </p>
+                                                <h3 class="card__title">
+                                                    <a href="lesson-details.html">กฎหมายคุ้มครองข้อมูลส่วนบุคคลกับบริบทการคุ้มครองข้อมูลส่วนบุคคลในกฎหมายอื่น</a>
+                                                </h3>
+                                                <div class="rating-wrap d-flex mt-2 mb-3">
+                                                    <ul class="review-stars">
+                                                        <li><span class="la la-star"></span></li>
+                                                        <li><span class="la la-star"></span></li>
+                                                        <li><span class="la la-star"></span></li>
+                                                        <li><span class="la la-star"></span></li>
+                                                        <li><span class="la la-star-o"></span></li>
+                                                    </ul>
+                                                    <span class="star-rating-wrap">
+                                                    <span class="star__rating">4.4</span>
+                                                    <span class="star__count">(20)</span>
+                                                </span>
+                                                </div><!-- end rating-wrap -->
+                                                <div class="card-action">
+                                                    <ul class="card-duration d-flex justify-content-between align-items-center">
+                                                        <li>
+                                                        <span class="meta__date">
+                                                            <i class="la la-play-circle"></i> 45 บทเรียน
+                                                        </span>
+                                                        </li>
+                                                        <li>
+                                                        <span class="meta__date">
+                                                            <i class="la la-clock-o"></i> 3 ชั่วโมง 20 นาที
+                                                        </span>
+                                                        </li>
+                                                    </ul>
+                                                </div><!-- end card-action -->
                                             </div><!-- end card-content -->
                                         </div><!-- end card-item -->
                                     </div><!-- end col-lg-6 -->
@@ -328,6 +462,33 @@
                                                 <h3 class="card__title">
                                                     <a href="lesson-details.html">5 วิธีทำ Content ยังไรให้ได้เงิน</a>
                                                 </h3>
+                                                <div class="rating-wrap d-flex mt-2 mb-3">
+                                                    <ul class="review-stars">
+                                                        <li><span class="la la-star"></span></li>
+                                                        <li><span class="la la-star"></span></li>
+                                                        <li><span class="la la-star"></span></li>
+                                                        <li><span class="la la-star"></span></li>
+                                                        <li><span class="la la-star-o"></span></li>
+                                                    </ul>
+                                                    <span class="star-rating-wrap">
+                                                    <span class="star__rating">4.4</span>
+                                                    <span class="star__count">(20)</span>
+                                                </span>
+                                                </div><!-- end rating-wrap -->
+                                                <div class="card-action">
+                                                    <ul class="card-duration d-flex justify-content-between align-items-center">
+                                                        <li>
+                                                        <span class="meta__date">
+                                                            <i class="la la-play-circle"></i> 45 บทเรียน
+                                                        </span>
+                                                        </li>
+                                                        <li>
+                                                        <span class="meta__date">
+                                                            <i class="la la-clock-o"></i> 3 ชั่วโมง 20 นาที
+                                                        </span>
+                                                        </li>
+                                                    </ul>
+                                                </div><!-- end card-action -->
                                             </div><!-- end card-content -->
                                         </div><!-- end card-item -->
                                     </div><!-- end col-lg-6 -->
@@ -346,27 +507,37 @@
                                                 <h3 class="card__title">
                                                     <a href="lesson-details.html">4 กฏเหล็กการทำตลาดผ่าน Facebook</a>
                                                 </h3>
+                                                <div class="rating-wrap d-flex mt-2 mb-3">
+                                                    <ul class="review-stars">
+                                                        <li><span class="la la-star"></span></li>
+                                                        <li><span class="la la-star"></span></li>
+                                                        <li><span class="la la-star"></span></li>
+                                                        <li><span class="la la-star"></span></li>
+                                                        <li><span class="la la-star-o"></span></li>
+                                                    </ul>
+                                                    <span class="star-rating-wrap">
+                                                    <span class="star__rating">4.4</span>
+                                                    <span class="star__count">(20)</span>
+                                                </span>
+                                                </div><!-- end rating-wrap -->
+                                                <div class="card-action">
+                                                    <ul class="card-duration d-flex justify-content-between align-items-center">
+                                                        <li>
+                                                        <span class="meta__date">
+                                                            <i class="la la-play-circle"></i> 45 บทเรียน
+                                                        </span>
+                                                        </li>
+                                                        <li>
+                                                        <span class="meta__date">
+                                                            <i class="la la-clock-o"></i> 3 ชั่วโมง 20 นาที
+                                                        </span>
+                                                        </li>
+                                                    </ul>
+                                                </div><!-- end card-action -->
                                             </div><!-- end card-content -->
                                         </div><!-- end card-item -->
                                     </div><!-- end col-lg-6 -->
-                                    <div class="col-lg-6">
-                                        <div class="card-item card-preview" data-tooltip-content="#tooltip_content_5">
-                                            <div class="card-image">
-                                                <a href="lesson-details.html" class="card__img"><img src="images/img88.jpg" alt=""></a>
-                                            </div><!-- end card-image -->
-                                            <div class="card-content">
-                                                <p class="card__label">
-                                                    <span class="card__label-text">คอร์สความปลอดภัยยุคดิจิทัล</span>
-                                                    <span class="card__author" style="margin-left: auto;">
-                                                        <a href="teacher-detail.html">เอเท็น อานนท์</a>
-                                                    </span>
-                                                </p>
-                                                <h3 class="card__title">
-                                                    <a href="lesson-details.html">10 เหตุผลที่ทำให้ร้านค้าออนไลน์ไม่ประสลความสำเร็จ</a>
-                                                </h3>
-                                            </div><!-- end card-content -->
-                                        </div><!-- end card-item -->
-                                    </div><!-- end col-lg-6 -->
+
                                     <div class="col-lg-6">
                                         <div class="card-item card-preview" data-tooltip-content="#tooltip_content_6">
                                             <div class="card-image">
@@ -382,6 +553,33 @@
                                                 <h3 class="card__title">
                                                     <a href="lesson-details.html">4 วิธีหาไอเดีย ขายอะไรดีในช่วงนี้</a>
                                                 </h3>
+                                                <div class="rating-wrap d-flex mt-2 mb-3">
+                                                    <ul class="review-stars">
+                                                        <li><span class="la la-star"></span></li>
+                                                        <li><span class="la la-star"></span></li>
+                                                        <li><span class="la la-star"></span></li>
+                                                        <li><span class="la la-star"></span></li>
+                                                        <li><span class="la la-star-o"></span></li>
+                                                    </ul>
+                                                    <span class="star-rating-wrap">
+                                                    <span class="star__rating">4.4</span>
+                                                    <span class="star__count">(20)</span>
+                                                </span>
+                                                </div><!-- end rating-wrap -->
+                                                <div class="card-action">
+                                                    <ul class="card-duration d-flex justify-content-between align-items-center">
+                                                        <li>
+                                                        <span class="meta__date">
+                                                            <i class="la la-play-circle"></i> 45 บทเรียน
+                                                        </span>
+                                                        </li>
+                                                        <li>
+                                                        <span class="meta__date">
+                                                            <i class="la la-clock-o"></i> 3 ชั่วโมง 20 นาที
+                                                        </span>
+                                                        </li>
+                                                    </ul>
+                                                </div><!-- end card-action -->
                                             </div><!-- end card-content -->
                                         </div><!-- end card-item -->
                                     </div><!-- end col-lg-6 -->
@@ -400,6 +598,33 @@
                                                 <h3 class="card__title">
                                                     <a href="lesson-details.html">"5 วิธีเริ่มต้นทำทุกธุรกิจ" ที่ได้กำไรชัวร์ๆ แบบไม่มโน</a>
                                                 </h3>
+                                                <div class="rating-wrap d-flex mt-2 mb-3">
+                                                    <ul class="review-stars">
+                                                        <li><span class="la la-star"></span></li>
+                                                        <li><span class="la la-star"></span></li>
+                                                        <li><span class="la la-star"></span></li>
+                                                        <li><span class="la la-star"></span></li>
+                                                        <li><span class="la la-star-o"></span></li>
+                                                    </ul>
+                                                    <span class="star-rating-wrap">
+                                                    <span class="star__rating">4.4</span>
+                                                    <span class="star__count">(20)</span>
+                                                </span>
+                                                </div><!-- end rating-wrap -->
+                                                <div class="card-action">
+                                                    <ul class="card-duration d-flex justify-content-between align-items-center">
+                                                        <li>
+                                                        <span class="meta__date">
+                                                            <i class="la la-play-circle"></i> 45 บทเรียน
+                                                        </span>
+                                                        </li>
+                                                        <li>
+                                                        <span class="meta__date">
+                                                            <i class="la la-clock-o"></i> 3 ชั่วโมง 20 นาที
+                                                        </span>
+                                                        </li>
+                                                    </ul>
+                                                </div><!-- end card-action -->
                                             </div><!-- end card-content -->
                                         </div><!-- end card-item -->
                                     </div><!-- end col-lg-6 -->
@@ -418,6 +643,33 @@
                                                 <h3 class="card__title">
                                                     <a href="lesson-details.html">เปิดร้านออนไลน์ เข้าใจง่ายภายใน 30 นาที</a>
                                                 </h3>
+                                                <div class="rating-wrap d-flex mt-2 mb-3">
+                                                    <ul class="review-stars">
+                                                        <li><span class="la la-star"></span></li>
+                                                        <li><span class="la la-star"></span></li>
+                                                        <li><span class="la la-star"></span></li>
+                                                        <li><span class="la la-star"></span></li>
+                                                        <li><span class="la la-star-o"></span></li>
+                                                    </ul>
+                                                    <span class="star-rating-wrap">
+                                                    <span class="star__rating">4.4</span>
+                                                    <span class="star__count">(20)</span>
+                                                </span>
+                                                </div><!-- end rating-wrap -->
+                                                <div class="card-action">
+                                                    <ul class="card-duration d-flex justify-content-between align-items-center">
+                                                        <li>
+                                                        <span class="meta__date">
+                                                            <i class="la la-play-circle"></i> 45 บทเรียน
+                                                        </span>
+                                                        </li>
+                                                        <li>
+                                                        <span class="meta__date">
+                                                            <i class="la la-clock-o"></i> 3 ชั่วโมง 20 นาที
+                                                        </span>
+                                                        </li>
+                                                    </ul>
+                                                </div><!-- end card-action -->
                                             </div><!-- end card-content -->
                                         </div><!-- end card-item -->
                                     </div><!-- end col-lg-6 -->
@@ -426,6 +678,97 @@
                             <div role="tabpanel" class="tab-pane fade" id="list-view" aria-labelledby="list-view-tab">
                                 <h2 class="mr-3 mb-3 text-success">สร้างงานด้วยดิจิทัล (14 บทเรียน)</h2>
                                 <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="card-item card-preview" data-tooltip-content="#tooltip_content_5">
+                                            <div class="card-image">
+                                                <a href="lesson-details2.html" class="card__img"><img src="images/img-02.jpg" alt=""></a>
+                                            </div><!-- end card-image -->
+                                            <div class="card-content">
+                                                <p class="card__label">
+                                                    <span class="card__label-text">คอร์สความปลอดภัยยุคดิจิทัล</span>
+                                                    <span class="card__author" style="margin-left: auto;">
+                                                        <a href="teacher-detail.html">efinanceThai TV</a>
+                                                    </span>
+                                                </p>
+                                                <h3 class="card__title">
+                                                    <a href="lesson-details.html">สรุป พ.ร.บ. ข้อมูลส่วนบุคคล คุ้มครองแค่ไหน เราได้ประโยชน์อะไร? - ExecutiveTalk Podcast</a>
+                                                </h3>
+                                                <div class="rating-wrap d-flex mt-2 mb-3">
+                                                    <ul class="review-stars">
+                                                        <li><span class="la la-star"></span></li>
+                                                        <li><span class="la la-star"></span></li>
+                                                        <li><span class="la la-star"></span></li>
+                                                        <li><span class="la la-star"></span></li>
+                                                        <li><span class="la la-star-o"></span></li>
+                                                    </ul>
+                                                    <span class="star-rating-wrap">
+                                                    <span class="star__rating">4.4</span>
+                                                    <span class="star__count">(20)</span>
+                                                </span>
+                                                </div><!-- end rating-wrap -->
+                                                <div class="card-action">
+                                                    <ul class="card-duration d-flex justify-content-between align-items-center">
+                                                        <li>
+                                                        <span class="meta__date">
+                                                            <i class="la la-play-circle"></i> 45 บทเรียน
+                                                        </span>
+                                                        </li>
+                                                        <li>
+                                                        <span class="meta__date">
+                                                            <i class="la la-clock-o"></i> 3 ชั่วโมง 20 นาที
+                                                        </span>
+                                                        </li>
+                                                    </ul>
+                                                </div><!-- end card-action -->
+                                            </div><!-- end card-content -->
+                                            
+                                        </div><!-- end card-item -->
+                                    </div><!-- end col-lg-6 -->
+                                    <div class="col-lg-6">
+                                        <div class="card-item card-preview" data-tooltip-content="#tooltip_content_5">
+                                            <div class="card-image">
+                                                <a href="lesson-details2.html" class="card__img"><img src="images/img-01.jpg" alt=""></a>
+                                            </div><!-- end card-image -->
+                                            <div class="card-content">
+                                                <p class="card__label">
+                                                    <span class="card__label-text">คอร์สความปลอดภัยยุคดิจิทัล</span>
+                                                    <span class="card__author" style="margin-left: auto;">
+                                                        <a href="teacher-detail.html">ETDA Channel</a>
+                                                    </span>
+                                                </p>
+                                                <h3 class="card__title">
+                                                    <a href="lesson-details.html">กฎหมายคุ้มครองข้อมูลส่วนบุคคลกับบริบทการคุ้มครองข้อมูลส่วนบุคคลในกฎหมายอื่น</a>
+                                                </h3>
+                                                <div class="rating-wrap d-flex mt-2 mb-3">
+                                                    <ul class="review-stars">
+                                                        <li><span class="la la-star"></span></li>
+                                                        <li><span class="la la-star"></span></li>
+                                                        <li><span class="la la-star"></span></li>
+                                                        <li><span class="la la-star"></span></li>
+                                                        <li><span class="la la-star-o"></span></li>
+                                                    </ul>
+                                                    <span class="star-rating-wrap">
+                                                    <span class="star__rating">4.4</span>
+                                                    <span class="star__count">(20)</span>
+                                                </span>
+                                                </div><!-- end rating-wrap -->
+                                                <div class="card-action">
+                                                    <ul class="card-duration d-flex justify-content-between align-items-center">
+                                                        <li>
+                                                        <span class="meta__date">
+                                                            <i class="la la-play-circle"></i> 45 บทเรียน
+                                                        </span>
+                                                        </li>
+                                                        <li>
+                                                        <span class="meta__date">
+                                                            <i class="la la-clock-o"></i> 3 ชั่วโมง 20 นาที
+                                                        </span>
+                                                        </li>
+                                                    </ul>
+                                                </div><!-- end card-action -->
+                                            </div><!-- end card-content -->
+                                        </div><!-- end card-item -->
+                                    </div><!-- end col-lg-6 -->
                                     <div class="col-lg-6">
                                         <div class="card-item card-preview" data-tooltip-content="#tooltip_content_1">
                                             <div class="card-image">
@@ -521,55 +864,7 @@
                                             </div><!-- end card-content -->
                                         </div><!-- end card-item -->
                                     </div><!-- end col-lg-6 -->
-                                    <div class="col-lg-6">
-                                        <div class="card-item card-preview" data-tooltip-content="#tooltip_content_3">
-                                            <div class="card-image">
-                                                <a href="lesson-details.html" class="card__img"><img src="images/img10.jpg" alt=""></a>
-                                                <div class="card-badge">
-                                                    <span class="badge-label">ดาวคะแนนสูงสุด</span>
-                                                </div>
-                                            </div><!-- end card-image -->
-                                            <div class="card-content">
-                                                <p class="card__label">
-                                                    <span class="card__label-text">ระดับสูง</span>
-                                                    <a href="#" class="card__collection-icon" data-toggle="tooltip" data-placement="top" title="Add to Wishlist"><span class="la la-heart-o"></span></a>
-                                                </p>
-                                                <h3 class="card__title">
-                                                    <a href="lesson-details.html">เปิดร้านออนไลน์ เข้าใจง่ายภายใน 30 นาที</a>
-                                                </h3>
-                                                <p class="card__author">
-                                                    <a href="teacher-detail.html">เอเท็น อานนท์</a>
-                                                </p>
-                                                <div class="rating-wrap d-flex mt-2 mb-3">
-                                                    <ul class="review-stars">
-                                                        <li><span class="la la-star"></span></li>
-                                                        <li><span class="la la-star"></span></li>
-                                                        <li><span class="la la-star"></span></li>
-                                                        <li><span class="la la-star"></span></li>
-                                                        <li><span class="la la-star-o"></span></li>
-                                                    </ul>
-                                                    <span class="star-rating-wrap">
-                                                    <span class="star__rating">4.5</span>
-                                                    <span class="star__count">(40)</span>
-                                                </span>
-                                                </div><!-- end rating-wrap -->
-                                                <div class="card-action">
-                                                    <ul class="card-duration d-flex justify-content-between align-items-center">
-                                                        <li>
-                                                        <span class="meta__date">
-                                                            <i class="la la-play-circle"></i> 45 บทเรียน
-                                                        </span>
-                                                        </li>
-                                                        <li>
-                                                        <span class="meta__date">
-                                                            <i class="la la-clock-o"></i> 3 ชั่วโมง 20 นาที
-                                                        </span>
-                                                        </li>
-                                                    </ul>
-                                                </div><!-- end card-action -->
-                                            </div><!-- end card-content -->
-                                        </div><!-- end card-item -->
-                                    </div><!-- end col-lg-6 -->
+ 
                                     <div class="col-lg-6">
                                         <div class="card-item card-preview" data-tooltip-content="#tooltip_content_4">
                                             <div class="card-image">
@@ -905,7 +1200,7 @@
                             </div><!-- end tab-pane -->
                         </div><!-- end tab-content -->
                     </div><!-- end col-lg-8 -->
-                    <div class="col-lg-4 d-none d-lg-block">
+                    <div class="col-lg-4 d-none d-lg-block padding-top-50px">
                         <div class="sidebar">
                             <div class="sidebar-widget">
                                 <h3 class="widget-title">ค้นหา</h3>
@@ -919,6 +1214,31 @@
                                     </form>
                                 </div><!-- end contact-form-action -->
                             </div><!-- end sidebar-widget -->
+                            <div class="sidebar-widget">
+                                <h3 class="widget-title">กลุ่มความรู้</h3>
+                                <span class="section-divider"></span>
+                                <ul class="filter-by-level">
+                                    <li>
+                                        <div class="custom-checkbox">
+                                            <input type="checkbox" id="chb26">
+                                            <label for="chb26" class="primary-color">การปกป้อง<span class="ml-2 font-size-14 primary-color-3">(20,300)</span></label>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="custom-checkbox">
+                                            <input type="checkbox" id="chb27">
+                                            <label for="chb27" class="primary-color">การศึกษา<span class="ml-2 font-size-14 primary-color-3">(5,300)</span></label>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="custom-checkbox">
+                                            <input type="checkbox" id="chb28">
+                                            <label for="chb28" class="primary-color">การเคารพ<span class="ml-2 font-size-14 primary-color-3">(12)</span></label>
+                                        </div>
+                                    </li>
+                                    
+                                </ul>
+                            </div>
                             <div class="sidebar-widget">
                                 <h3 class="widget-title">คอร์ส</h3>
                                 <span class="section-divider"></span>

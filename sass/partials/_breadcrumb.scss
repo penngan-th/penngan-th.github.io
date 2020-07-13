@@ -26,7 +26,69 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: $theme-color;
+
+    opacity: 0.9;
+    z-index: -1;
+  }
+}
+
+.breadcrumb-area-student {
+  background-color: $theme-color-5;
+  height: 330px;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  text-align: center;
+  z-index: 2;
+  color: $white;
+  background-image: url("../images/breadcrumb-area-student2.jpg");
+  background-size: cover;
+  background-position: center;
+  @media #{$small_mobile_four} {
+    height: 150px;
+  }
+  &:before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    opacity: 0.9;
+    z-index: -1;
+  }
+}
+
+.breadcrumb-area-course {
+  background-color: $theme-color-5;
+  height: 330px;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  text-align: center;
+  z-index: 2;
+  color: $white;
+  background-image: url("../images/breadcrumb-area-course.jpg");
+  background-size: cover;
+  background-position: center;
+  @media #{$small_mobile_four} {
+    height: 150px;
+  }
+  &:before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
     opacity: 0.9;
     z-index: -1;
   }
@@ -78,8 +140,8 @@
     li {
       display: inline-block;
       text-transform: capitalize;
-      color: $theme-color-5;
-      font-size: $default-font;
+      color: $theme-color-7;
+      font-size: $display-11;
       font-weight: $font-weight-medium;
       position: relative;
       padding-right: 22px;
@@ -87,7 +149,7 @@
         padding-right: 0;
       }
       a {
-        color: $theme-color-5;
+        color: $theme-color-7;
         @include transition(0.3s);
         &:hover {
           color: $theme-color-2;

@@ -1,6 +1,6 @@
 .section-tab {
   .nav-tabs {
-    border: none;
+    border: 1 px;
     li {
       margin: 0 3px;
       @media #{$large_mobile_four} {
@@ -29,6 +29,27 @@
         line-height: 40px;
         border: none;
       }
+      .tab-img-btn {
+        height: 120px; 
+        width: auto;
+        margin-left: 1px;
+        margin-right: 1px;
+        opacity: 0.4;
+        &:hover {
+          opacity: 1;
+        }
+        &.active
+        {
+          opacity: 1;
+        }
+        @media #{$small_mobile} {
+          height: 60px; 
+          width: auto;
+          margin-left: 1px;
+          margin-right: 1px;
+        }
+      }
+       
     }
   }
 }
