@@ -16,6 +16,12 @@
 ===============================-*/
 .course-carousel {
   .owl-nav {
+    @media #{$large_mobile} {
+      display: none;
+    }
+    @media #{$small_mobile} {
+      display: none;
+    }
     div {
       position: absolute;
       top: 50%;

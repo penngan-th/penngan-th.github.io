@@ -11,7 +11,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    height: 539px;
+    height: 560px;
     z-index: -1;
     @media #{$laptop_m_four} {
       height: 484px;
@@ -33,13 +33,13 @@
     }
   }
   &:before {
-    background-image: url("../images/img8.jpg");
+    background-image: url("../images/blogs.jpg");
     background-size: cover;
     background-position: center;
   }
   &:after {
     background-color: $theme-color;
-    opacity: 0.90;
+    opacity: 0.0;
   }
   .owl-dots {
     text-align: center;

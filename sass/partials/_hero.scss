@@ -125,6 +125,7 @@
       @media #{$tab_device} {
         font-size: $display-3;
         line-height: 75px;
+        text-align: left;
       }
       @media #{$large_mobile} {
         font-size: $display-4;
@@ -146,6 +147,72 @@
         text-align: left;
         font-size: $display-13;
         margin-bottom: 5px;
+      }
+    }
+    .section_title_ed {
+      font-size: $display-5;
+      line-height: 90px;
+      font-weight: $font-weight-bold;
+      color: $white;
+      margin-bottom: 0px;
+      @media #{$tab_device} {
+        font-size: $display-5;
+        line-height: 75px;
+        text-align: left;
+      }
+      @media #{$large_mobile} {
+        font-size: $display-5;
+        line-height: 65px;
+        text-align: left;
+      }
+      @media #{$device-481} {
+        font-size: $primary-font;
+        line-height: 50px;
+        text-align: left;
+      }
+    }
+    .section_desc_ed {
+      font-size: $display-11;
+      line-height: 32px;
+      margin-bottom: 20px;
+    
+      @media #{$small_mobile} {
+        text-align: left;
+        font-size: $display-13;
+        margin-bottom: 5px;
+      }
+    }
+    .section_logo_ed {
+      height: 100px; 
+      width: auto;
+      margin-bottom: 20px;
+      @media #{$small_mobile} {
+        text-align: left;
+        height: 60px; 
+        width: auto;
+        margin-bottom: 20px;
+      }
+    }
+    .section__desc_white {
+      font-size: $display-9;
+      line-height: 32px;
+      margin-bottom: 20px;
+    
+      @media #{$small_mobile} {
+        text-align: left;
+        font-size: $display-13;
+        margin-bottom: 5px;
+      }
+    }
+    .section__logo {
+      height: 100px; 
+      width: auto;
+      margin-bottom: 90px;
+      @media #{$small_mobile} {
+        text-align: left;
+        height: 60px; 
+        width: auto;
+        margin-bottom: 20px;
       }
     }
   }

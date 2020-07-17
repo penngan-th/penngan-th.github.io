@@ -1,10 +1,12 @@
 .section-tab {
   .nav-tabs {
-    border: 1 px;
+    border-bottom: 0px solid rgba(127, 136, 151, 0.2);
     li {
-      margin: 0 3px;
+      margin-left: 2px;
+      margin-right: 2px;
+      margin-bottom: 0px;
       @media #{$large_mobile_four} {
-        margin-bottom: 5px;
+        margin-bottom: 0px;
       }
       .theme-btn {
         &.x1 {
@@ -35,13 +37,13 @@
         margin-left: 1px;
         margin-right: 1px;
         opacity: 0.4;
-        &:hover {
-          opacity: 1;
-        }
+
         &.active
         {
+          transition-duration: 0.4s;
           opacity: 1;
         }
+        
         @media #{$small_mobile} {
           height: 60px; 
           width: auto;
