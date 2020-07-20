@@ -39,135 +39,439 @@
     </div>
 </div>
 <!-- end cssload-loader -->
-
 <!--======================================
         START HEADER AREA
     ======================================-->
-<section class="header-menu-area dashboard-header">
-    <div class="header-menu-fluid">
-        <div class="header-menu-content dashboard-menu-content my-course-menu-content">
-            <div class="container-fluid">
-                <div class="main-menu-content">
-                    <div class="row align-items-center h-100">
-                        <div class="col-lg-12 h-100">
-                            <div class="dashboard-menu-bar d-flex align-items-center h-100">
-                                <div class="logo-box">
-                                    <a href="index.html" class="logo" title="เป็นงาน"><img src="images/logo.png" alt="logo"></a>
-                                </div>
-                                <div class="menu-wrapper w-100">
-                                    <div class="contact-form-action">
-                                        <form method="post">
-                                            <div class="input-box">
-                                                <div class="form-group">
-                                                    <input class="form-control" type="text" name="search" placeholder="ค้นหาคอร์สที่คุณต้องการ">
-                                                    <span class="la la-search search-icon"></span>
-                                                </div>
-                                            </div><!-- end input-box -->
-                                        </form>
-                                    </div><!-- end contact-form-action -->
-                                    <nav class="main-menu ml-auto">
-                                         <ul>
-                                        <li>
-                                            <a href="course-grid.html">คอร์ส</a>
-                                        </li>
-                                        <li>
-                                            <a href="blog-right-sidebar.html">บล็อก</a>
-                                        </li>
-                                        <li>
-                                            <a href="gallery.html">ภาพความประทับใจ</a>
-                                        </li>
-                                        <li>
-                                            <a href="faq.html">คำถามที่พบบ่อย</a>
-                                        </li>
-                                        <!--<li><a href="contact.html">ติดต่อเรา</a></li>-->
-                                    </ul><!-- end ul -->
-                                    </nav><!-- end main-menu -->
-                                    <div class="logo-right-button">
-                                        <div class="header-action-button d-flex align-items-center">
-                                            <div class="header-widget header-widget2">
-                                                <div class="header-right-info">
-                                                    <ul class="user-cart d-flex align-items-center ">
-                                                        <li>
-                                                            <span class="user-cart-btn btn">
-                                                                คอร์สของฉัน <i class="la la-angle-down ml-1"></i>
-                                                            </span>
-                                                            <div class="my-content-dropdown">
-                                                                <ul class="dropdown-menu-item">
-                                                                    <li>
-                                                                        <div class="cart-item">
-                                                                            <a href="lesson-details.html">
-                                                                                <img src="images/small-img.jpg" alt="product">
-                                                                            </a>
-                                                                            <div class="item__info">
-                                                                                <p class="item__info-link">
-                                                                                    <a href="lesson-details.html"> The Complete Financial Analyst Course 2019</a>
-                                                                                </p>
-                                                                                <span class="course-item-meta d-block font-size-14">By<a href="teacher-detail.html" class="d-inline-block ml-1 primary-color-2">Alex Smith</a></span>
-                                                                                <div class="skillbar-box mt-2 w-100">
-                                                                                    <div class="skillbar" data-percent="0%">
-                                                                                        <div class="skillbar-bar skillbar-bar-1"></div>
-                                                                                    </div> <!-- End Skill Bar -->
+    <section class="header-menu-area dashboard-header">
+        <div class="header-menu-fluid">
+            <div class="header-menu-content dashboard-menu-content my-course-menu-content">
+                <div class="container-fluid">
+                    <div class="main-menu-content">
+                        <div class="row align-items-center h-100">
+                            <div class="col-lg-12 h-100">
+                                <div class="dashboard-menu-bar d-flex align-items-center h-100">
+                                    <div class="logo-box">
+                                        <a href="index.html" class="logo" title="เป็นงาน"><img src="images/logo.png" alt="logo"></a>
+                                    </div>
+                                    <div class="menu-wrapper w-100">
+                                        <div class="contact-form-action">
+                                            <form method="post">
+                                                <div class="input-box">
+                                                    <div class="form-group">
+                                                        <input class="form-control" type="text" name="search" placeholder="ค้นหาหลักสูตรที่คุณต้องการ">
+                                                        <span class="la la-search search-icon"></span>
+                                                    </div>
+                                                </div><!-- end input-box -->
+                                            </form>
+                                        </div><!-- end contact-form-action -->
+                                        <nav class="main-menu ml-auto">
+                                             <ul>
+                                            <li>
+                                                <a href="course-grid.html">หลักสูตร</a>
+                                            </li>
+                                            <li>
+                                                <a href="blog-right-sidebar.html">บทความ</a>
+                                            </li>
+                                            <li>
+                                                <a href="gallery.html">ภาพความประทับใจ</a>
+                                            </li>
+                                            <li>
+                                                <a href="faq.html">คำถามที่พบบ่อย</a>
+                                            </li>
+                                            <!--<li><a href="contact.html">ติดต่อเรา</a></li>-->
+                                        </ul><!-- end ul -->
+                                        </nav><!-- end main-menu -->
+                                        <div class="logo-right-button">
+                                            <div class="header-action-button d-flex align-items-center">
+                                                <div class="header-widget header-widget2">
+                                                    <div class="header-right-info">
+                                                        <ul class="user-cart d-flex align-items-center ">
+                                                            <li>
+                                                                <span class="user-cart-btn btn">
+                                                                    หลักสูตรของฉัน <i class="la la-angle-down ml-1"></i>
+                                                                </span>
+                                                                <div class="my-content-dropdown">
+                                                                    <ul class="dropdown-menu-item">
+                                                                        <li>
+                                                                            <div class="cart-item">
+                                                                                <a href="lesson-details.html">
+                                                                                    <img src="images/small-img.jpg" alt="product">
+                                                                                </a>
+                                                                                <div class="item__info">
+                                                                                    <p class="item__info-link">
+                                                                                        <a href="lesson-details.html"> The Complete Financial Analyst Course 2019</a>
+                                                                                    </p>
+                                                                                    <span class="course-item-meta d-block font-size-14">By<a href="teacher-detail.html" class="d-inline-block ml-1 primary-color-2">Alex Smith</a></span>
+                                                                                    <div class="skillbar-box mt-2 w-100">
+                                                                                        <div class="skillbar" data-percent="0%">
+                                                                                            <div class="skillbar-bar skillbar-bar-1"></div>
+                                                                                        </div> <!-- End Skill Bar -->
+                                                                                    </div>
                                                                                 </div>
                                                                             </div>
-                                                                        </div>
-                                                                    </li>
-                                                                    <li>
-                                                                        <div class="cart-item">
-                                                                            <a href="lesson-details.html">
-                                                                                <img src="images/small-img.jpg" alt="product">
-                                                                            </a>
-                                                                            <div class="item__info">
-                                                                                <p class="item__info-link">
-                                                                                    <a href="lesson-details.html"> The Complete Financial Analyst Course 2019</a>
-                                                                                </p>
-                                                                                <span class="course-item-meta d-block font-size-14">By<a href="teacher-detail.html" class="d-inline-block ml-1 primary-color-2">Alex Smith</a></span>
-                                                                                <div class="skillbar-box mt-2 w-100">
-                                                                                    <div class="skillbar" data-percent="60%">
-                                                                                        <div class="skillbar-bar skillbar-bar-1"></div>
-                                                                                    </div> <!-- End Skill Bar -->
+                                                                        </li>
+                                                                        <li>
+                                                                            <div class="cart-item">
+                                                                                <a href="lesson-details.html">
+                                                                                    <img src="images/small-img.jpg" alt="product">
+                                                                                </a>
+                                                                                <div class="item__info">
+                                                                                    <p class="item__info-link">
+                                                                                        <a href="lesson-details.html"> The Complete Financial Analyst Course 2019</a>
+                                                                                    </p>
+                                                                                    <span class="course-item-meta d-block font-size-14">By<a href="teacher-detail.html" class="d-inline-block ml-1 primary-color-2">Alex Smith</a></span>
+                                                                                    <div class="skillbar-box mt-2 w-100">
+                                                                                        <div class="skillbar" data-percent="60%">
+                                                                                            <div class="skillbar-bar skillbar-bar-1"></div>
+                                                                                        </div> <!-- End Skill Bar -->
+                                                                                    </div>
                                                                                 </div>
                                                                             </div>
-                                                                        </div>
-                                                                    </li>
-                                                                    <li>
-                                                                        <div class="cart-item">
-                                                                            <a href="lesson-details.html">
-                                                                                <img src="images/small-img.jpg" alt="product">
-                                                                            </a>
-                                                                            <div class="item__info">
-                                                                                <p class="item__info-link">
-                                                                                    <a href="lesson-details.html"> The Complete Financial Analyst Course 2019</a>
-                                                                                </p>
-                                                                                <span class="course-item-meta d-block font-size-14">By<a href="teacher-detail.html" class="d-inline-block ml-1 primary-color-2">Alex Smith</a></span>
-                                                                                <div class="skillbar-box mt-2 w-100">
-                                                                                    <div class="skillbar" data-percent="10%">
-                                                                                        <div class="skillbar-bar skillbar-bar-1"></div>
-                                                                                    </div> <!-- End Skill Bar -->
+                                                                        </li>
+                                                                        <li>
+                                                                            <div class="cart-item">
+                                                                                <a href="lesson-details.html">
+                                                                                    <img src="images/small-img.jpg" alt="product">
+                                                                                </a>
+                                                                                <div class="item__info">
+                                                                                    <p class="item__info-link">
+                                                                                        <a href="lesson-details.html"> The Complete Financial Analyst Course 2019</a>
+                                                                                    </p>
+                                                                                    <span class="course-item-meta d-block font-size-14">By<a href="teacher-detail.html" class="d-inline-block ml-1 primary-color-2">Alex Smith</a></span>
+                                                                                    <div class="skillbar-box mt-2 w-100">
+                                                                                        <div class="skillbar" data-percent="10%">
+                                                                                            <div class="skillbar-bar skillbar-bar-1"></div>
+                                                                                        </div> <!-- End Skill Bar -->
+                                                                                    </div>
                                                                                 </div>
                                                                             </div>
-                                                                        </div>
-                                                                    </li>
-                                                                </ul>
-                                                                <div class="cart-info">
-                                                                    <a class="theme-btn" href="my-courses.html">go to course</a>
+                                                                        </li>
+                                                                    </ul>
+                                                                    <div class="cart-info">
+                                                                        <a class="theme-btn" href="my-courses.html">go to course</a>
+                                                                    </div>
                                                                 </div>
-                                                            </div>
-                                                        </li>
-                                                    </ul>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="notification-wrap d-flex align-items-center">
+                                                    <div class="notification-item mr-3">
+                                                        <div class="dropdown">
+                                                            <button class="notification-btn dropdown-toggle" type="button" id="notificationDropdownMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                                <i class="la la-bell"></i>
+                                                                <span class="quantity">5</span>
+                                                            </button>
+                                                            <div class="dropdown-menu" aria-labelledby="notificationDropdownMenu">
+                                                                <div class="mess-dropdown">
+                                                                    <div class="mess__title">
+                                                                        <h4 class="widget-title">Notifications</h4>
+                                                                    </div><!-- end mess__title -->
+                                                                    <div class="mess__body">
+                                                                        <a href="dashboard.html" class="d-block">
+                                                                            <div class="mess__item">
+                                                                                <div class="icon-element bg-color-1 text-white">
+                                                                                    <i class="la la-bolt"></i>
+                                                                                </div>
+                                                                                <div class="content">
+                                                                                    <span class="time">1 hour ago</span>
+                                                                                    <p class="text">Your Resume Updated!</p>
+                                                                                </div>
+                                                                            </div><!-- end mess__item -->
+                                                                        </a>
+                                                                        <a href="dashboard.html" class="d-block">
+                                                                            <div class="mess__item">
+                                                                                <div class="icon-element bg-color-2 text-white">
+                                                                                    <i class="la la-lock"></i>
+                                                                                </div>
+                                                                                <div class="content">
+                                                                                    <span class="time">November 12, 2019</span>
+                                                                                    <p class="text">You changed password</p>
+                                                                                </div>
+                                                                            </div><!-- end mess__item -->
+                                                                        </a>
+                                                                        <a href="dashboard.html" class="d-block">
+                                                                            <div class="mess__item">
+                                                                                <div class="icon-element bg-color-3 text-white">
+                                                                                    <i class="la la-check-circle"></i>
+                                                                                </div>
+                                                                                <div class="content">
+                                                                                    <span class="time">October 6, 2019</span>
+                                                                                    <p class="text">You applied for a job <span class="color-text">Front-end Developer</span></p>
+                                                                                </div>
+                                                                            </div><!-- end mess__item -->
+                                                                        </a>
+                                                                        <a href="dashboard.html" class="d-block">
+                                                                            <div class="mess__item">
+                                                                                <div class="icon-element bg-color-4 text-white">
+                                                                                    <i class="la la-user"></i>
+                                                                                </div>
+                                                                                <div class="content">
+                                                                                    <span class="time">Jun 12, 2019</span>
+                                                                                    <p class="text">Your account has been created successfully</p>
+                                                                                </div>
+                                                                            </div><!-- end mess__item -->
+                                                                        </a>
+                                                                        <a href="dashboard.html" class="d-block">
+                                                                            <div class="mess__item">
+                                                                                <div class="icon-element bg-color-5 text-white">
+                                                                                    <i class="la la-download"></i>
+                                                                                </div>
+                                                                                <div class="content">
+                                                                                    <span class="time">May 12, 2019</span>
+                                                                                    <p class="text">Someone downloaded resume</p>
+                                                                                </div>
+                                                                            </div><!-- end mess__item -->
+                                                                        </a>
+                                                                    </div><!-- end mess__body -->
+                                                                    <div class="btn-box p-2 text-center">
+                                                                        <a href="dashboard.html">Show All Notifications</a>
+                                                                    </div><!-- end btn-box -->
+                                                                </div><!-- end mess-dropdown -->
+                                                            </div><!-- end dropdown-menu -->
+                                                        </div><!-- end dropdown -->
+                                                    </div>
+                                                    <div class="notification-item mr-3">
+                                                        <div class="dropdown">
+                                                            <button class="notification-btn dropdown-toggle" type="button" id="messageDropdownMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                                <i class="la la-envelope"></i>
+                                                                <span class="quantity">5</span>
+                                                            </button>
+                                                            <div class="dropdown-menu" aria-labelledby="messageDropdownMenu">
+                                                                <div class="mess-dropdown">
+                                                                    <div class="mess__title">
+                                                                        <h4 class="widget-title">Messages</h4>
+                                                                    </div><!-- end mess__title -->
+                                                                    <div class="mess__body">
+                                                                        <a href="dashboard-message.html" class="d-block">
+                                                                            <div class="mess__item">
+                                                                                <div class="avatar dot-status">
+                                                                                    <img src="images/team7.jpg" alt="Team img">
+                                                                                </div>
+                                                                                <div class="content">
+                                                                                    <h4 class="widget-title">Michelle Moreno</h4>
+                                                                                    <p class="text">Thanks for reaching out. I'm quite busy right now on many</p>
+                                                                                    <span class="time">5 min ago</span>
+                                                                                </div>
+                                                                            </div><!-- end mess__item -->
+                                                                        </a>
+                                                                        <a href="dashboard-message.html" class="d-block">
+                                                                            <div class="mess__item">
+                                                                                <div class="avatar dot-status online-status">
+                                                                                    <img src="images/team8.jpg" alt="Team img">
+                                                                                </div>
+                                                                                <div class="content">
+                                                                                    <h4 class="widget-title">Alex Smith</h4>
+                                                                                    <p class="text">Thanks for reaching out. I'm quite busy right now on many</p>
+                                                                                    <span class="time">2 days ago</span>
+                                                                                </div>
+                                                                            </div><!-- end mess__item -->
+                                                                        </a>
+                                                                        <a href="dashboard-message.html" class="d-block">
+                                                                            <div class="mess__item">
+                                                                                <div class="avatar dot-status">
+                                                                                    <img src="images/team9.jpg" alt="Team img">
+                                                                                </div>
+                                                                                <div class="content">
+                                                                                    <h4 class="widget-title">Michelle Moreno</h4>
+                                                                                    <p class="text">Thanks for reaching out. I'm quite busy right now on many</p>
+                                                                                    <span class="time">5 min ago</span>
+                                                                                </div>
+                                                                            </div><!-- end mess__item -->
+                                                                        </a>
+                                                                        <a href="dashboard-message.html" class="d-block">
+                                                                            <div class="mess__item">
+                                                                                <div class="avatar dot-status online-status">
+                                                                                    <img src="images/team7.jpg" alt="Team img">
+                                                                                </div>
+                                                                                <div class="content">
+                                                                                    <h4 class="widget-title">Alex Smith</h4>
+                                                                                    <p class="text">Thanks for reaching out. I'm quite busy right now on many</p>
+                                                                                    <span class="time">2 days ago</span>
+                                                                                </div>
+                                                                            </div><!-- end mess__item -->
+                                                                        </a>
+                                                                        <a href="dashboard-message.html" class="d-block">
+                                                                            <div class="mess__item">
+                                                                                <div class="avatar dot-status">
+                                                                                    <img src="images/team8.jpg" alt="Team img">
+                                                                                </div>
+                                                                                <div class="content">
+                                                                                    <h4 class="widget-title">Alex Smith</h4>
+                                                                                    <p class="text">Thanks for reaching out. I'm quite busy right now on many</p>
+                                                                                    <span class="time">2 days ago</span>
+                                                                                </div>
+                                                                            </div><!-- end mess__item -->
+                                                                        </a>
+                                                                    </div><!-- end mess__body -->
+                                                                    <div class="btn-box p-2 text-center">
+                                                                        <a href="dashboard-message.html">Show All Message</a>
+                                                                    </div><!-- end btn-box -->
+                                                                </div><!-- end mess-dropdown -->
+                                                            </div><!-- end dropdown-menu -->
+                                                        </div><!-- end dropdown -->
+                                                    </div>
+                                                </div>
+                                                <div class="user-action-wrap">
+                                                    <div class="notification-item user-action-item">
+                                                        <div class="dropdown">
+                                                            <button class="notification-btn dot-status online-status dropdown-toggle" type="button" id="userDropdownMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                                <img src="images/team7.jpg" alt="John-doe">
+                                                            </button>
+                                                            <div class="dropdown-menu" aria-labelledby="userDropdownMenu">
+                                                                <div class="mess-dropdown">
+                                                                    <div class="mess__title d-flex align-items-center">
+                                                                        <div class="image">
+                                                                            <a href="#">
+                                                                                <img src="images/team7.jpg" alt="John Doe">
+                                                                            </a>
+                                                                        </div>
+                                                                        <div class="content">
+                                                                            <h4 class="widget-title font-size-16">
+                                                                                <a href="#" class="text-white">
+                                                                                    Alex Smith
+                                                                                </a>
+                                                                            </h4>
+                                                                            <span class="email">alexsmith@example.com</span>
+                                                                        </div>
+                                                                    </div><!-- end mess__title -->
+                                                                    <div class="mess__body">
+                                                                        <ul class="list-items">
+                                                                            <li class="mb-0">
+                                                                                <a href="student-detail.html" class="d-block">
+                                                                                    <i class="la la-user"></i> ข้อมูลโปรไฟล์                             </a>
+                                                                            </li><li class="mb-0">
+                                                                                <div class="section-block mt-2 mb-2"></div>
+                                                                            </li><li class="mb-0">
+                                                                                <a href="my-courses.html" class="d-block">
+                                                                                    <i class="la la-file-video-o"></i> หลักสูตรที่ลงทะเบียน
+                                                                                </a>
+                                                                            </li>
+                                                                             
+                                                                            <li class="mb-0">
+                                                                                <a href="my-courses.html" class="d-block">
+                                                                                    <i class="la la-bookmark"></i> รับรางวัล</a>
+                                                                            </li>
+                                                                            <li class="mb-0">
+                                                                                <div class="section-block mt-2 mb-2"></div>
+                                                                            </li>
+                                                                            <li class="mb-0">
+                                                                                <a href="dashboard.html" class="d-block">
+                                                                                    <span><i class="la la-bell"></i> แจ้งเตือน</span>
+                                                                                    <span class="badge bg-info text-white ml-2 p-1">9+</span>
+                                                                                </a>
+                                                                            </li>
+                                                                            <li class="mb-0">
+                                                                                <a href="dashboard-message.html" class="d-block">
+                                                                                    <span><i class="la la-envelope"></i> ข้อความ</span>
+                                                                                    <span class="badge bg-info text-white ml-2 p-1">12+</span>
+                                                                                </a>
+                                                                            </li>
+                                                                            <li class="mb-0">
+                                                                                <a href="dashboard-settings.html" class="d-block">
+                                                                                    <i class="la la-gear"></i> การตั้งค่า
+                                                                                </a>
+                                                                            </li>
+                                                                             
+                                                                            <li class="mb-0">
+                                                                                <div class="section-block mt-2 mb-2"></div>
+                                                                            </li>
+                                                                            
+                                                                            
+                                                                            
+                                                                            <li class="mb-0">
+                                                                                <a href="#" class="d-block">
+                                                                                    <i class="la la-question"></i> ช่วยเหลือ
+                                                                                </a>
+                                                                            </li>
+                                                                            <li class="mb-0">
+                                                                                <a href="index.html" class="d-block">
+                                                                                    <i class="la la-power-off"></i> ออกจากระบบ
+                                                                                </a>
+                                                                            </li>
+                                                                            <li class="mb-0">
+                                                                                <div class="section-block mt-2 mb-2"></div>
+                                                                            </li>
+                                                                            <li>
+                                                                                <div class="business-content">
+                                                                                    <a href="#">
+                                                                                        <span class="widget-title font-size-18 d-block">เป็นงาน เพื่อโอกาสแห่งชีวิต</span>
+                                                                                        
+                                                                                    </a>
+                                                                                </div>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </div><!-- end mess__body -->
+                                                                </div><!-- end mess-dropdown -->
+                                                            </div><!-- end dropdown-menu -->
+                                                        </div><!-- end dropdown -->
+                                                    </div>
                                                 </div>
                                             </div>
-                                            <div class="notification-wrap d-flex align-items-center">
-                                                <div class="notification-item mr-3">
-                                                    <div class="dropdown">
-                                                        <button class="notification-btn dropdown-toggle" type="button" id="notificationDropdownMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                            <i class="la la-bell"></i>
-                                                            <span class="quantity">5</span>
-                                                        </button>
-                                                        <div class="dropdown-menu" aria-labelledby="notificationDropdownMenu">
+                                            <div class="menu-toggler d-flex align-items-center">
+                                                <div class="side-menu-open">
+                                                    <i class="la la-bars"></i>
+                                                </div><!-- end side-menu-open -->
+                                                <div class="user-menu-open ml-2">
+                                                    <i class="la la-user"></i>
+                                                </div><!-- end user-menu-open -->
+                                            </div>
+                                        </div><!-- end logo-right-button -->
+                                                                        <div class="side-nav-container">
+                                        <div class="humburger-menu">
+                                            <div class="humburger-menu-lines side-menu-close"></div><!-- end humburger-menu-lines -->
+                                        </div><!-- end humburger-menu -->
+                                        <div class="side-menu-wrap">
+                                            <ul class="side-menu-ul">
+                                                <li class="sidenav__item">
+                                                    <a href="index.html">หน้าแรก</a>
+                                                </li>
+                                                 <li class="sidenav__item">
+                                                    <a href="course-grid.html">หลักสูตร</a> 
+                                                </li>
+                                                <li class="sidenav__item">
+                                                     <a href="blog-right-sidebar.html">บทความ</a>
+                                                </li>
+                                                <li class="sidenav__item">
+                                                    <a href="gallery.html">ภาพความประทับใจ</a>
+                                                </li>
+                                                <li class="sidenav__item">
+                                                   <a href="faq.html">คำถามที่พบบ่อย</a>
+                                                </li>
+                                                <li class="sidenav__item">
+                                                    <a href="contact.html">ติดต่อเรา</a>
+                                                </li>
+                                            </ul>
+                                        </div><!-- end side-menu-wrap -->
+                                    </div><!-- end side-nav-container -->
+                                        <div class="user-nav-container">
+                                            <div class="humburger-menu">
+                                                <div class="humburger-menu-lines side-menu-close"></div><!-- end humburger-menu-lines -->
+                                            </div><!-- end humburger-menu -->
+                                            <div class="section-tab section-tab-2">
+                                                <ul class="nav nav-tabs" role="tablist">
+                                                    <li role="presentation">
+                                                        <a href="#notification-home" role="tab" data-toggle="tab" class="active" aria-selected="true">
+                                                            Notifications
+                                                        </a>
+                                                    </li>
+                                                    <li role="presentation">
+                                                        <a href="#message-home" role="tab" data-toggle="tab" aria-selected="false">
+                                                            Messages
+                                                        </a>
+                                                    </li>
+                                                    <li role="presentation">
+                                                        <a href="#account-home" role="tab" data-toggle="tab" aria-selected="false">
+                                                            Account
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="user-panel-content">
+                                                <div class="tab-content">
+                                                    <div class="tab-pane fade active show" id="notification-home" role="tabpanel">
+                                                        <div class="user-sidebar-item">
                                                             <div class="mess-dropdown">
-                                                                <div class="mess__title">
-                                                                    <h4 class="widget-title">Notifications</h4>
-                                                                </div><!-- end mess__title -->
                                                                 <div class="mess__body">
                                                                     <a href="dashboard.html" class="d-block">
                                                                         <div class="mess__item">
@@ -229,20 +533,11 @@
                                                                     <a href="dashboard.html">Show All Notifications</a>
                                                                 </div><!-- end btn-box -->
                                                             </div><!-- end mess-dropdown -->
-                                                        </div><!-- end dropdown-menu -->
-                                                    </div><!-- end dropdown -->
-                                                </div>
-                                                <div class="notification-item mr-3">
-                                                    <div class="dropdown">
-                                                        <button class="notification-btn dropdown-toggle" type="button" id="messageDropdownMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                            <i class="la la-envelope"></i>
-                                                            <span class="quantity">5</span>
-                                                        </button>
-                                                        <div class="dropdown-menu" aria-labelledby="messageDropdownMenu">
+                                                        </div>
+                                                    </div>
+                                                    <div class="tab-pane fade" id="message-home" role="tabpanel">
+                                                        <div class="user-sidebar-item">
                                                             <div class="mess-dropdown">
-                                                                <div class="mess__title">
-                                                                    <h4 class="widget-title">Messages</h4>
-                                                                </div><!-- end mess__title -->
                                                                 <div class="mess__body">
                                                                     <a href="dashboard-message.html" class="d-block">
                                                                         <div class="mess__item">
@@ -309,17 +604,10 @@
                                                                     <a href="dashboard-message.html">Show All Message</a>
                                                                 </div><!-- end btn-box -->
                                                             </div><!-- end mess-dropdown -->
-                                                        </div><!-- end dropdown-menu -->
-                                                    </div><!-- end dropdown -->
-                                                </div>
-                                            </div>
-                                            <div class="user-action-wrap">
-                                                <div class="notification-item user-action-item">
-                                                    <div class="dropdown">
-                                                        <button class="notification-btn dot-status online-status dropdown-toggle" type="button" id="userDropdownMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                            <img src="images/team7.jpg" alt="John-doe">
-                                                        </button>
-                                                        <div class="dropdown-menu" aria-labelledby="userDropdownMenu">
+                                                        </div>
+                                                    </div>
+                                                    <div class="tab-pane fade" id="account-home" role="tabpanel">
+                                                        <div class="user-sidebar-item user-action-item">
                                                             <div class="mess-dropdown">
                                                                 <div class="mess__title d-flex align-items-center">
                                                                     <div class="image">
@@ -329,9 +617,7 @@
                                                                     </div>
                                                                     <div class="content">
                                                                         <h4 class="widget-title font-size-16">
-                                                                            <a href="#" class="text-white">
-                                                                                Alex Smith
-                                                                            </a>
+                                                                            <a href="#" class="text-white">จิงจัง เพื่องานนี้</a>
                                                                         </h4>
                                                                         <span class="email">alexsmith@example.com</span>
                                                                     </div>
@@ -339,61 +625,55 @@
                                                                 <div class="mess__body">
                                                                     <ul class="list-items">
                                                                         <li class="mb-0">
+                                                                            <a href="student-detail.html" class="d-block">
+                                                                                <i class="la la-user"></i> ข้อมูลโปรไฟล์                             </a>
+                                                                        </li><li class="mb-0">
+                                                                            <div class="section-block mt-2 mb-2"></div>
+                                                                        </li><li class="mb-0">
                                                                             <a href="my-courses.html" class="d-block">
-                                                                                <i class="la la-file-video-o"></i> My courses
+                                                                                <i class="la la-file-video-o"></i> หลักสูตรที่ลงทะเบียน
                                                                             </a>
                                                                         </li>
                                                                          
                                                                         <li class="mb-0">
                                                                             <a href="my-courses.html" class="d-block">
-                                                                                <i class="la la-bookmark"></i> My wishlist
-                                                                            </a>
+                                                                                <i class="la la-bookmark"></i> รับรางวัล</a>
                                                                         </li>
                                                                         <li class="mb-0">
                                                                             <div class="section-block mt-2 mb-2"></div>
                                                                         </li>
                                                                         <li class="mb-0">
                                                                             <a href="dashboard.html" class="d-block">
-                                                                                <span><i class="la la-bell"></i> Notifications</span>
+                                                                                <span><i class="la la-bell"></i> แจ้งเตือน</span>
                                                                                 <span class="badge bg-info text-white ml-2 p-1">9+</span>
                                                                             </a>
                                                                         </li>
                                                                         <li class="mb-0">
                                                                             <a href="dashboard-message.html" class="d-block">
-                                                                                <span><i class="la la-envelope"></i> Messages</span>
+                                                                                <span><i class="la la-envelope"></i> ข้อความ</span>
                                                                                 <span class="badge bg-info text-white ml-2 p-1">12+</span>
                                                                             </a>
                                                                         </li>
                                                                         <li class="mb-0">
                                                                             <a href="dashboard-settings.html" class="d-block">
-                                                                                <i class="la la-gear"></i> Settings
+                                                                                <i class="la la-gear"></i> การตั้งค่า
                                                                             </a>
                                                                         </li>
                                                                          
                                                                         <li class="mb-0">
                                                                             <div class="section-block mt-2 mb-2"></div>
                                                                         </li>
-                                                                        <li class="mb-0">
-                                                                            <a href="student-detail.html" class="d-block">
-                                                                                <i class="la la-user"></i> Public Profile
-                                                                            </a>
-                                                                        </li>
-                                                                        <li class="mb-0">
-                                                                            <a href="dashboard-settings.html" class="d-block">
-                                                                                <i class="la la-edit"></i> Edit Profile
-                                                                            </a>
-                                                                        </li>
-                                                                        <li class="mb-0">
-                                                                            <div class="section-block mt-2 mb-2"></div>
-                                                                        </li>
+                                                                        
+                                                                        
+                                                                        
                                                                         <li class="mb-0">
                                                                             <a href="#" class="d-block">
-                                                                                <i class="la la-question"></i> Help
+                                                                                <i class="la la-question"></i> ช่วยเหลือ
                                                                             </a>
                                                                         </li>
                                                                         <li class="mb-0">
                                                                             <a href="index.html" class="d-block">
-                                                                                <i class="la la-power-off"></i> Logout
+                                                                                <i class="la la-power-off"></i> ออกจากระบบ
                                                                             </a>
                                                                         </li>
                                                                         <li class="mb-0">
@@ -402,356 +682,43 @@
                                                                         <li>
                                                                             <div class="business-content">
                                                                                 <a href="#">
-                                                                                    <span class="widget-title font-size-18 d-block">Try เป็นงาน for Business</span>
-                                                                                    <span class="line-height-24 d-block primary-color-3">Bring learning to your company</span>
+                                                                                    <span class="widget-title font-size-18 d-block">เป็นงาน เพื่อโอกาสแห่งชีวิต</span>
+                                                                                    
                                                                                 </a>
                                                                             </div>
                                                                         </li>
                                                                     </ul>
                                                                 </div><!-- end mess__body -->
-                                                            </div><!-- end mess-dropdown -->
-                                                        </div><!-- end dropdown-menu -->
-                                                    </div><!-- end dropdown -->
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="menu-toggler d-flex align-items-center">
-                                            <div class="side-menu-open">
-                                                <i class="la la-bars"></i>
-                                            </div><!-- end side-menu-open -->
-                                            <div class="user-menu-open ml-2">
-                                                <i class="la la-user"></i>
-                                            </div><!-- end user-menu-open -->
-                                        </div>
-                                    </div><!-- end logo-right-button -->
-                                                                    <div class="side-nav-container">
-                                    <div class="humburger-menu">
-                                        <div class="humburger-menu-lines side-menu-close"></div><!-- end humburger-menu-lines -->
-                                    </div><!-- end humburger-menu -->
-                                    <div class="side-menu-wrap">
-                                        <ul class="side-menu-ul">
-                                            <li class="sidenav__item">
-                                                <a href="index.html">หน้าแรก</a>
-                                                 
-                                            </li>
-
-                                            <li class="sidenav__item">
-                                                <a href="my-courses.html">คอร์สของฉัน</a>
-                                                 
-                                            </li>
-                                             <li class="sidenav__item">
-                                                <a href="course-grid.html">คอร์ส</a> 
-                                            </li>
-                                            <li class="sidenav__item">
-                                                 <a href="blog-right-sidebar.html">บล็อก</a>
-                                            </li>
-                                            <li class="sidenav__item">
-                                                <a href="gallery.html">ภาพความประทับใจ</a>
-                                            </li>
-                                            <li class="sidenav__item">
-                                               <a href="faq.html">คำถามที่พบบ่อย</a>
-                                            </li>
-                                            <li class="sidenav__item">
-                                                <a href="contact.html">ติดต่อเรา</a>
-                                            </li>
-                                        </ul>
-                                        <div class="side-btn-box">
-                                            <a href="login.html" class="theme-btn">เข้าสู่ระบบ</a>
-                                            <span>หรือ</span>
-                                            <a href="sign-up.html" class="theme-btn">ลงทะเบียน</a>
-                                        </div>
-                                    </div><!-- end side-menu-wrap -->
-                                </div><!-- end side-nav-container -->
-                                    <div class="user-nav-container">
-                                        <div class="humburger-menu">
-                                            <div class="humburger-menu-lines side-menu-close"></div><!-- end humburger-menu-lines -->
-                                        </div><!-- end humburger-menu -->
-                                        <div class="section-tab section-tab-2">
-                                            <ul class="nav nav-tabs" role="tablist">
-                                                <li role="presentation">
-                                                    <a href="#notification-home" role="tab" data-toggle="tab" class="active" aria-selected="true">
-                                                        Notifications
-                                                    </a>
-                                                </li>
-                                                <li role="presentation">
-                                                    <a href="#message-home" role="tab" data-toggle="tab" aria-selected="false">
-                                                        Messages
-                                                    </a>
-                                                </li>
-                                                <li role="presentation">
-                                                    <a href="#account-home" role="tab" data-toggle="tab" aria-selected="false">
-                                                        Account
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="user-panel-content">
-                                            <div class="tab-content">
-                                                <div class="tab-pane fade active show" id="notification-home" role="tabpanel">
-                                                    <div class="user-sidebar-item">
-                                                        <div class="mess-dropdown">
-                                                            <div class="mess__body">
-                                                                <a href="dashboard.html" class="d-block">
-                                                                    <div class="mess__item">
-                                                                        <div class="icon-element bg-color-1 text-white">
-                                                                            <i class="la la-bolt"></i>
-                                                                        </div>
-                                                                        <div class="content">
-                                                                            <span class="time">1 hour ago</span>
-                                                                            <p class="text">Your Resume Updated!</p>
-                                                                        </div>
-                                                                    </div><!-- end mess__item -->
-                                                                </a>
-                                                                <a href="dashboard.html" class="d-block">
-                                                                    <div class="mess__item">
-                                                                        <div class="icon-element bg-color-2 text-white">
-                                                                            <i class="la la-lock"></i>
-                                                                        </div>
-                                                                        <div class="content">
-                                                                            <span class="time">November 12, 2019</span>
-                                                                            <p class="text">You changed password</p>
-                                                                        </div>
-                                                                    </div><!-- end mess__item -->
-                                                                </a>
-                                                                <a href="dashboard.html" class="d-block">
-                                                                    <div class="mess__item">
-                                                                        <div class="icon-element bg-color-3 text-white">
-                                                                            <i class="la la-check-circle"></i>
-                                                                        </div>
-                                                                        <div class="content">
-                                                                            <span class="time">October 6, 2019</span>
-                                                                            <p class="text">You applied for a job <span class="color-text">Front-end Developer</span></p>
-                                                                        </div>
-                                                                    </div><!-- end mess__item -->
-                                                                </a>
-                                                                <a href="dashboard.html" class="d-block">
-                                                                    <div class="mess__item">
-                                                                        <div class="icon-element bg-color-4 text-white">
-                                                                            <i class="la la-user"></i>
-                                                                        </div>
-                                                                        <div class="content">
-                                                                            <span class="time">Jun 12, 2019</span>
-                                                                            <p class="text">Your account has been created successfully</p>
-                                                                        </div>
-                                                                    </div><!-- end mess__item -->
-                                                                </a>
-                                                                <a href="dashboard.html" class="d-block">
-                                                                    <div class="mess__item">
-                                                                        <div class="icon-element bg-color-5 text-white">
-                                                                            <i class="la la-download"></i>
-                                                                        </div>
-                                                                        <div class="content">
-                                                                            <span class="time">May 12, 2019</span>
-                                                                            <p class="text">Someone downloaded resume</p>
-                                                                        </div>
-                                                                    </div><!-- end mess__item -->
-                                                                </a>
-                                                            </div><!-- end mess__body -->
-                                                            <div class="btn-box p-2 text-center">
-                                                                <a href="dashboard.html">Show All Notifications</a>
-                                                            </div><!-- end btn-box -->
-                                                        </div><!-- end mess-dropdown -->
-                                                    </div>
-                                                </div>
-                                                <div class="tab-pane fade" id="message-home" role="tabpanel">
-                                                    <div class="user-sidebar-item">
-                                                        <div class="mess-dropdown">
-                                                            <div class="mess__body">
-                                                                <a href="dashboard-message.html" class="d-block">
-                                                                    <div class="mess__item">
-                                                                        <div class="avatar dot-status">
-                                                                            <img src="images/team7.jpg" alt="Team img">
-                                                                        </div>
-                                                                        <div class="content">
-                                                                            <h4 class="widget-title">Michelle Moreno</h4>
-                                                                            <p class="text">Thanks for reaching out. I'm quite busy right now on many</p>
-                                                                            <span class="time">5 min ago</span>
-                                                                        </div>
-                                                                    </div><!-- end mess__item -->
-                                                                </a>
-                                                                <a href="dashboard-message.html" class="d-block">
-                                                                    <div class="mess__item">
-                                                                        <div class="avatar dot-status online-status">
-                                                                            <img src="images/team8.jpg" alt="Team img">
-                                                                        </div>
-                                                                        <div class="content">
-                                                                            <h4 class="widget-title">Alex Smith</h4>
-                                                                            <p class="text">Thanks for reaching out. I'm quite busy right now on many</p>
-                                                                            <span class="time">2 days ago</span>
-                                                                        </div>
-                                                                    </div><!-- end mess__item -->
-                                                                </a>
-                                                                <a href="dashboard-message.html" class="d-block">
-                                                                    <div class="mess__item">
-                                                                        <div class="avatar dot-status">
-                                                                            <img src="images/team9.jpg" alt="Team img">
-                                                                        </div>
-                                                                        <div class="content">
-                                                                            <h4 class="widget-title">Michelle Moreno</h4>
-                                                                            <p class="text">Thanks for reaching out. I'm quite busy right now on many</p>
-                                                                            <span class="time">5 min ago</span>
-                                                                        </div>
-                                                                    </div><!-- end mess__item -->
-                                                                </a>
-                                                                <a href="dashboard-message.html" class="d-block">
-                                                                    <div class="mess__item">
-                                                                        <div class="avatar dot-status online-status">
-                                                                            <img src="images/team7.jpg" alt="Team img">
-                                                                        </div>
-                                                                        <div class="content">
-                                                                            <h4 class="widget-title">Alex Smith</h4>
-                                                                            <p class="text">Thanks for reaching out. I'm quite busy right now on many</p>
-                                                                            <span class="time">2 days ago</span>
-                                                                        </div>
-                                                                    </div><!-- end mess__item -->
-                                                                </a>
-                                                                <a href="dashboard-message.html" class="d-block">
-                                                                    <div class="mess__item">
-                                                                        <div class="avatar dot-status">
-                                                                            <img src="images/team8.jpg" alt="Team img">
-                                                                        </div>
-                                                                        <div class="content">
-                                                                            <h4 class="widget-title">Alex Smith</h4>
-                                                                            <p class="text">Thanks for reaching out. I'm quite busy right now on many</p>
-                                                                            <span class="time">2 days ago</span>
-                                                                        </div>
-                                                                    </div><!-- end mess__item -->
-                                                                </a>
-                                                            </div><!-- end mess__body -->
-                                                            <div class="btn-box p-2 text-center">
-                                                                <a href="dashboard-message.html">Show All Message</a>
-                                                            </div><!-- end btn-box -->
-                                                        </div><!-- end mess-dropdown -->
-                                                    </div>
-                                                </div>
-                                                <div class="tab-pane fade" id="account-home" role="tabpanel">
-                                                    <div class="user-sidebar-item user-action-item">
-                                                        <div class="mess-dropdown">
-                                                            <div class="mess__title d-flex align-items-center">
-                                                                <div class="image">
-                                                                    <a href="#">
-                                                                        <img src="images/team7.jpg" alt="John Doe">
-                                                                    </a>
-                                                                </div>
-                                                                <div class="content">
-                                                                    <h4 class="widget-title font-size-16">
-                                                                        <a href="#" class="text-white">
-                                                                            Alex Smith
-                                                                        </a>
-                                                                    </h4>
-                                                                    <span class="email">alexsmith@example.com</span>
-                                                                </div>
-                                                            </div><!-- end mess__title -->
-                                                            <div class="mess__body">
-                                                                <ul class="list-items">
-                                                                    <li class="mb-0">
-                                                                        <a href="my-courses.html" class="d-block">
-                                                                            <i class="la la-file-video-o"></i> My courses
-                                                                        </a>
-                                                                    </li>
-                                                                    <li class="mb-0">
-                                                                        <a href="shopping-cart.html" class="d-block">
-                                                                            <i class="la la-shopping-cart"></i> My cart
-                                                                        </a>
-                                                                    </li>
-                                                                    <li class="mb-0">
-                                                                        <a href="my-courses.html" class="d-block">
-                                                                            <i class="la la-bookmark"></i> My wishlist
-                                                                        </a>
-                                                                    </li>
-                                                                    <li class="mb-0">
-                                                                        <div class="section-block mt-2 mb-2"></div>
-                                                                    </li>
-                                                                    <!--<li class="mb-0">
-                                                                        <a href="dashboard.html" class="d-block">
-                                                                            <span><i class="la la-bell"></i> Notifications</span>
-                                                                            <span class="badge bg-info text-white ml-2 p-1">9+</span>
-                                                                        </a>
-                                                                    </li>
-                                                                    <li class="mb-0">
-                                                                        <a href="dashboard-message.html" class="d-block">
-                                                                            <span><i class="la la-envelope"></i> Messages</span>
-                                                                            <span class="badge bg-info text-white ml-2 p-1">12+</span>
-                                                                        </a>
-                                                                    </li>-->
-                                                                    <li class="mb-0">
-                                                                        <a href="dashboard-settings.html" class="d-block">
-                                                                            <i class="la la-gear"></i> Settings
-                                                                        </a>
-                                                                    </li>
-                                                                    <li class="mb-0">
-                                                                        <a href="dashboard-purchase-history.html" class="d-block">
-                                                                            <i class="la la-cart-plus"></i> Purchase history
-                                                                        </a>
-                                                                    </li>
-                                                                    <li class="mb-0">
-                                                                        <div class="section-block mt-2 mb-2"></div>
-                                                                    </li>
-                                                                    <li class="mb-0">
-                                                                        <a href="student-detail.html" class="d-block">
-                                                                            <i class="la la-user"></i> Public Profile
-                                                                        </a>
-                                                                    </li>
-                                                                    <li class="mb-0">
-                                                                        <a href="dashboard-settings.html" class="d-block">
-                                                                            <i class="la la-edit"></i> Edit Profile
-                                                                        </a>
-                                                                    </li>
-                                                                    <li class="mb-0">
-                                                                        <div class="section-block mt-2 mb-2"></div>
-                                                                    </li>
-                                                                    <li class="mb-0">
-                                                                        <a href="#" class="d-block">
-                                                                            <i class="la la-question"></i> Help
-                                                                        </a>
-                                                                    </li>
-                                                                    <li class="mb-0">
-                                                                        <a href="index.html" class="d-block">
-                                                                            <i class="la la-power-off"></i> Logout
-                                                                        </a>
-                                                                    </li>
-                                                                    <li class="mb-0">
-                                                                        <div class="section-block mt-2 mb-2"></div>
-                                                                    </li>
-                                                                    <li>
-                                                                        <div class="business-content">
-                                                                            <a href="#">
-                                                                                <span class="widget-title font-size-18 d-block">Try เป็นงาน for Business</span>
-                                                                                <span class="line-height-24 d-block primary-color-3">Bring learning to your company</span>
-                                                                            </a>
-                                                                        </div>
-                                                                    </li>
-                                                                </ul>
-                                                            </div><!-- end mess__body -->
-                                                        </div><!-- end mess-dropdown -->
+                                                            </div>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
-                                </div><!-- end menu-wrapper -->
-                            </div>
-                        </div><!-- end col-lg-12 -->
-                    </div><!-- end row -->
-                </div>
-            </div><!-- end container-fluid -->
-        </div><!-- end header-menu-content -->
-    </div><!-- end header-menu-fluid -->
-</section><!-- end header-menu-area -->
+                                    </div><!-- end menu-wrapper -->
+                                </div>
+                            </div><!-- end col-lg-12 -->
+                        </div><!-- end row -->
+                    </div>
+                </div><!-- end container-fluid -->
+            </div><!-- end header-menu-content -->
+        </div><!-- end header-menu-fluid -->
+    </section><!-- end header-menu-area -->
 <!--======================================
         END HEADER AREA
 ======================================-->
 
+
 <!-- ================================
     START BREADCRUMB AREA
 ================================= -->
-<section class="breadcrumb-area my-courses-bread">
+<section class="breadcrumb-area-mycourse my-courses-bread">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
                 <div class="breadcrumb-content my-courses-bread-content">
                     <div class="section-heading">
-                        <h2 class="section__title">My courses</h2>
+                        <h2 class="section__title">หลักสูตรของฉัน</h2>
                     </div>
                 </div><!-- end breadcrumb-content -->
                 <div class="my-courses-tab">
@@ -759,22 +726,18 @@
                         <ul class="nav nav-tabs" role="tablist" id="review">
                             <li role="presentation">
                                 <a href="#all-courses" role="tab" data-toggle="tab" class="active" aria-selected="true">
-                                    All Courses
+                                   ทั้งหมด
                                 </a>
                             </li>
-                            <li role="presentation">
-                                <a href="#collections" role="tab" data-toggle="tab" aria-selected="false">
-                                    Collections
-                                </a>
-                            </li>
+ 
                             <li role="presentation">
                                 <a href="#wishlist" role="tab" data-toggle="tab" aria-selected="false">
-                                   Wishlist
+                                   รายการโปรด
                                 </a>
                             </li>
                             <li role="presentation">
                                 <a href="#archived" role="tab" data-toggle="tab" aria-selected="false">
-                                    Archived
+                                    จบหลักสูตร
                                 </a>
                             </li>
                         </ul>
@@ -807,7 +770,7 @@
                                 </div>
                             </div><!-- end course-alert-info -->
                             <div class="my-course-content-body">
-                                <div class="lecture-overview-item">
+                                <div class="lecture-overview-item hide-on-mobile">
                                     <div class="question-overview-filter-wrap my-course-filter-wrap d-flex align-items-center">
                                         <div class="my-course-sort-by-content">
                                             <div class="question-overview-filter-item">
@@ -1537,384 +1500,7 @@
                                 </div><!-- end page-navigation-wrap -->
                             </div>
                         </div><!-- end tab-pane -->
-                        <div role="tabpanel" class="tab-pane fade" id="collections">
-                            <div class="my-collection-wrap">
-                                <div class="my-collection-item">
-                                    <div class="my-collection-info">
-                                        <div class="d-flex align-items-center pb-2">
-                                            <h3 class="widget-title">Javascript</h3>
-                                            <div class="my-collection-action-wrap ml-2">
-                                                <span class="la la-edit icon-element" title="Edit" data-toggle="modal" data-target=".edit-collection-modal-form"></span>
-                                                <span class="la la-trash icon-element" title="Delete" data-toggle="modal" data-target=".account-delete-modal"></span>
-                                            </div>
-                                        </div>
-                                        <p>Leading the basics fundamentals</p>
-                                    </div>
-                                    <div class="my-collection-card-body padding-top-35px">
-                                        <div class="row">
-                                            <div class="col-lg-4 column-td-half">
-                                                <div class="card-item">
-                                                    <div class="card-image">
-                                                        <a href="lesson-details.html" class="card__img">
-                                                            <img src="images/img8.jpg" alt="">
-                                                            <div class="play-button">
-                                                                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="-307.4 338.8 91.8 91.8" style=" enable-background:new -307.4 338.8 91.8 91.8;" xml:space="preserve">
-                                                                    <style type="text/css">
-                                                                        .st0{opacity:0.6;fill:#000000;border-radius: 100px;enable-background:new;}
-                                                                        .st1{fill:#FFFFFF;}
-                                                                    </style>
-                                                                    <g>
-                                                                        <circle class="st0" cx="-261.5" cy="384.7" r="45.9"/><path class="st1" d="M-272.9,363.2l35.8,20.7c0.7,0.4,0.7,1.3,0,1.7l-35.8,20.7c-0.7,0.4-1.5-0.1-1.5-0.9V364C-274.4,363.3-273.5,362.8-272.9,363.2z"/>
-                                                                    </g>
-                                                                </svg>
-                                                            </div>
-                                                        </a>
-                                                        <div class="msg-action-dot my-course-action-dot">
-                                                            <div class="dropdown">
-                                                                <a class="action-dot btn" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                                    <i class="la la-ellipsis-v"></i>
-                                                                </a>
-                                                                <div class="dropdown-menu">
-                                                                    <a class="dropdown-item d-flex align-items-center justify-content-between" href="javascript:void(0)">
-                                                                        Remove from collection <i class="la la-eye-slash"></i>
-                                                                    </a>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div><!-- end card-image -->
-                                                    <div class="card-content p-4">
-                                                        <h3 class="card__title mt-0">
-                                                            <a href="lesson-details.html">The Complete Full-Stack JavaScript Course!</a>
-                                                        </h3>
-                                                        <p class="card__author">
-                                                            <a href="teacher-detail.html">Joseph Delgadillo</a>
-                                                            <span>, Internet Marketer & Business Innovator</span>
-                                                        </p>
-                                                        <div class="course-complete-bar-2 mt-2">
-                                                            <div class="progress-item mb-0">
-                                                                <p class="skillbar-title">Complete:</p>
-                                                                <div class="skillbar-box mt-1">
-                                                                    <div class="skillbar" data-percent="70%">
-                                                                        <div class="skillbar-bar skillbar-bar-1"></div>
-                                                                    </div> <!-- End Skill Bar -->
-                                                                </div>
-                                                                <div class="skill-bar-percent">70%</div>
-                                                            </div>
-                                                        </div><!-- end course-complete-bar-2 -->
-                                                        <div class="rating-wrap d-flex mt-3">
-                                                            <a href="javascript:void(0)" data-toggle="modal" data-target=".rating-modal-form" class="btn rating-btn">
-                                                                <i class="la la-star mr-1"></i>Leave a Rating
-                                                            </a>
-                                                        </div><!-- end rating-wrap -->
-                                                    </div><!-- end card-content -->
-                                                </div><!-- end card-item -->
-                                            </div><!-- end col-lg-4 -->
-                                            <div class="col-lg-4 column-td-half">
-                                                <div class="card-item">
-                                                    <div class="card-image">
-                                                        <a href="lesson-details.html" class="card__img">
-                                                            <img src="images/img9.jpg" alt="">
-                                                            <div class="play-button">
-                                                                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="-307.4 338.8 91.8 91.8" style=" enable-background:new -307.4 338.8 91.8 91.8;" xml:space="preserve">
-                                                                    <style type="text/css">
-                                                                        .st0{opacity:0.6;fill:#000000;border-radius: 100px;enable-background:new;}
-                                                                        .st1{fill:#FFFFFF;}
-                                                                    </style>
-                                                                    <g>
-                                                                        <circle class="st0" cx="-261.5" cy="384.7" r="45.9"/><path class="st1" d="M-272.9,363.2l35.8,20.7c0.7,0.4,0.7,1.3,0,1.7l-35.8,20.7c-0.7,0.4-1.5-0.1-1.5-0.9V364C-274.4,363.3-273.5,362.8-272.9,363.2z"/>
-                                                                    </g>
-                                                                </svg>
-                                                            </div>
-                                                        </a>
-                                                        <div class="msg-action-dot my-course-action-dot">
-                                                            <div class="dropdown">
-                                                                <a class="action-dot btn" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                                    <i class="la la-ellipsis-v"></i>
-                                                                </a>
-                                                                <div class="dropdown-menu">
-                                                                    <a class="dropdown-item d-flex align-items-center justify-content-between" href="javascript:void(0)">
-                                                                        Remove from collection <i class="la la-eye-slash"></i>
-                                                                    </a>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div><!-- end card-image -->
-                                                    <div class="card-content p-4">
-                                                        <h3 class="card__title mt-0">
-                                                            <a href="lesson-details.html">Modern JavaScript From The Beginning</a>
-                                                        </h3>
-                                                        <p class="card__author">
-                                                            <a href="teacher-detail.html">Hussain Rubaye</a>
-                                                            <span>, Software Engineer and Developer</span>
-                                                        </p>
-                                                        <div class="course-complete-bar-2 mt-2">
-                                                            <div class="progress-item mb-0">
-                                                                <p class="skillbar-title">Complete:</p>
-                                                                <div class="skillbar-box mt-1">
-                                                                    <div class="skillbar" data-percent="0%">
-                                                                        <div class="skillbar-bar skillbar-bar-1"></div>
-                                                                    </div> <!-- End Skill Bar -->
-                                                                </div>
-                                                                <div class="skill-bar-percent">0%</div>
-                                                            </div>
-                                                        </div><!-- end course-complete-bar-2 -->
-                                                        <div class="rating-wrap d-flex mt-3">
-                                                            <a href="lesson-details.html" class="btn rating-btn">
-                                                                <i class="la la-eye mr-1"></i>Start course
-                                                            </a>
-                                                        </div><!-- end rating-wrap -->
-                                                    </div><!-- end card-content -->
-                                                </div><!-- end card-item -->
-                                            </div><!-- end col-lg-4 -->
-                                            <div class="col-lg-4 column-td-half">
-                                                <div class="card-item">
-                                                    <div class="card-image">
-                                                        <a href="lesson-details.html" class="card__img">
-                                                            <img src="images/img10.jpg" alt="">
-                                                            <div class="play-button">
-                                                                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="-307.4 338.8 91.8 91.8" style=" enable-background:new -307.4 338.8 91.8 91.8;" xml:space="preserve">
-                                                                    <style type="text/css">
-                                                                        .st0{opacity:0.6;fill:#000000;border-radius: 100px;enable-background:new;}
-                                                                        .st1{fill:#FFFFFF;}
-                                                                    </style>
-                                                                    <g>
-                                                                        <circle class="st0" cx="-261.5" cy="384.7" r="45.9"/><path class="st1" d="M-272.9,363.2l35.8,20.7c0.7,0.4,0.7,1.3,0,1.7l-35.8,20.7c-0.7,0.4-1.5-0.1-1.5-0.9V364C-274.4,363.3-273.5,362.8-272.9,363.2z"/>
-                                                                    </g>
-                                                                </svg>
-                                                            </div>
-                                                        </a>
-                                                        <div class="msg-action-dot my-course-action-dot">
-                                                            <div class="dropdown">
-                                                                <a class="action-dot btn" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                                    <i class="la la-ellipsis-v"></i>
-                                                                </a>
-                                                                <div class="dropdown-menu">
-                                                                    <a class="dropdown-item d-flex align-items-center justify-content-between" href="javascript:void(0)">
-                                                                        Remove from collection <i class="la la-eye-slash"></i>
-                                                                    </a>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div><!-- end card-image -->
-                                                    <div class="card-content p-4">
-                                                        <h3 class="card__title mt-0">
-                                                            <a href="lesson-details.html">The Complete JavaScript Course 2020: Build Real Projects!</a>
-                                                        </h3>
-                                                        <p class="card__author">
-                                                            <a href="teacher-detail.html">alex smith</a>
-                                                            <span>, Developer, Team Lead, Software Consultant, Loves Technology</span>
-                                                        </p>
-                                                        <div class="course-complete-bar-2 mt-2">
-                                                            <div class="progress-item mb-0">
-                                                                <p class="skillbar-title">Complete:</p>
-                                                                <div class="skillbar-box mt-1">
-                                                                    <div class="skillbar" data-percent="0%">
-                                                                        <div class="skillbar-bar skillbar-bar-1"></div>
-                                                                    </div> <!-- End Skill Bar -->
-                                                                </div>
-                                                                <div class="skill-bar-percent">0%</div>
-                                                            </div>
-                                                        </div><!-- end course-complete-bar-2 -->
-                                                        <div class="rating-wrap d-flex mt-3">
-                                                            <a href="lesson-details.html" class="btn rating-btn">
-                                                                <i class="la la-eye mr-1"></i>Start course
-                                                            </a>
-                                                        </div><!-- end rating-wrap -->
-                                                    </div><!-- end card-content -->
-                                                </div><!-- end card-item -->
-                                            </div><!-- end col-lg-4 -->
-                                        </div><!-- end row -->
-                                    </div>
-                                </div><!-- end my-collection-item -->
-                                <div class="my-collection-item">
-                                    <div class="my-collection-info">
-                                        <div class="d-flex align-items-center pb-2">
-                                            <h3 class="widget-title">Business</h3>
-                                            <div class="my-collection-action-wrap ml-2">
-                                                <span class="la la-edit icon-element" title="Edit" data-toggle="modal" data-target=".edit-collection-modal-form"></span>
-                                                <span class="la la-trash icon-element" title="Delete" data-toggle="modal" data-target=".account-delete-modal"></span>
-                                            </div>
-                                        </div>
-                                        <p>Leading the basics fundamentals</p>
-                                    </div>
-                                    <div class="my-collection-card-body padding-top-35px">
-                                        <div class="row">
-                                            <div class="col-lg-4 column-td-half">
-                                                <div class="card-item">
-                                                    <div class="card-image">
-                                                        <a href="lesson-details.html" class="card__img">
-                                                            <img src="images/img8.jpg" alt="">
-                                                            <div class="play-button">
-                                                                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="-307.4 338.8 91.8 91.8" style=" enable-background:new -307.4 338.8 91.8 91.8;" xml:space="preserve">
-                                                                    <style type="text/css">
-                                                                        .st0{opacity:0.6;fill:#000000;border-radius: 100px;enable-background:new;}
-                                                                        .st1{fill:#FFFFFF;}
-                                                                    </style>
-                                                                    <g>
-                                                                        <circle class="st0" cx="-261.5" cy="384.7" r="45.9"/><path class="st1" d="M-272.9,363.2l35.8,20.7c0.7,0.4,0.7,1.3,0,1.7l-35.8,20.7c-0.7,0.4-1.5-0.1-1.5-0.9V364C-274.4,363.3-273.5,362.8-272.9,363.2z"/>
-                                                                    </g>
-                                                                </svg>
-                                                            </div>
-                                                        </a>
-                                                        <div class="msg-action-dot my-course-action-dot">
-                                                            <div class="dropdown">
-                                                                <a class="action-dot btn" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                                    <i class="la la-ellipsis-v"></i>
-                                                                </a>
-                                                                <div class="dropdown-menu">
-                                                                    <a class="dropdown-item d-flex align-items-center justify-content-between" href="javascript:void(0)">
-                                                                        Remove from collection <i class="la la-eye-slash"></i>
-                                                                    </a>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div><!-- end card-image -->
-                                                    <div class="card-content p-4">
-                                                        <h3 class="card__title mt-0">
-                                                            <a href="lesson-details.html">An Entire MBA in 1 Course:Award Winning Business School Prof</a>
-                                                        </h3>
-                                                        <p class="card__author">
-                                                            <a href="teacher-detail.html">Joseph Delgadillo</a>
-                                                            <span>, Internet Marketer & Business Innovator</span>
-                                                        </p>
-                                                        <div class="course-complete-bar-2 mt-2">
-                                                            <div class="progress-item mb-0">
-                                                                <p class="skillbar-title">Complete:</p>
-                                                                <div class="skillbar-box mt-1">
-                                                                    <div class="skillbar" data-percent="70%">
-                                                                        <div class="skillbar-bar skillbar-bar-1"></div>
-                                                                    </div> <!-- End Skill Bar -->
-                                                                </div>
-                                                                <div class="skill-bar-percent">70%</div>
-                                                            </div>
-                                                        </div><!-- end course-complete-bar-2 -->
-                                                        <div class="rating-wrap d-flex mt-3">
-                                                            <a href="javascript:void(0)" data-toggle="modal" data-target=".rating-modal-form" class="btn rating-btn">
-                                                                <i class="la la-star mr-1"></i>Leave a Rating
-                                                            </a>
-                                                        </div><!-- end rating-wrap -->
-                                                    </div><!-- end card-content -->
-                                                </div><!-- end card-item -->
-                                            </div><!-- end col-lg-4 -->
-                                            <div class="col-lg-4 column-td-half">
-                                                <div class="card-item">
-                                                    <div class="card-image">
-                                                        <a href="lesson-details.html" class="card__img">
-                                                            <img src="images/img9.jpg" alt="">
-                                                            <div class="play-button">
-                                                                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="-307.4 338.8 91.8 91.8" style=" enable-background:new -307.4 338.8 91.8 91.8;" xml:space="preserve">
-                                                                    <style type="text/css">
-                                                                        .st0{opacity:0.6;fill:#000000;border-radius: 100px;enable-background:new;}
-                                                                        .st1{fill:#FFFFFF;}
-                                                                    </style>
-                                                                    <g>
-                                                                        <circle class="st0" cx="-261.5" cy="384.7" r="45.9"/><path class="st1" d="M-272.9,363.2l35.8,20.7c0.7,0.4,0.7,1.3,0,1.7l-35.8,20.7c-0.7,0.4-1.5-0.1-1.5-0.9V364C-274.4,363.3-273.5,362.8-272.9,363.2z"/>
-                                                                    </g>
-                                                                </svg>
-                                                            </div>
-                                                        </a>
-                                                        <div class="msg-action-dot my-course-action-dot">
-                                                            <div class="dropdown">
-                                                                <a class="action-dot btn" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                                    <i class="la la-ellipsis-v"></i>
-                                                                </a>
-                                                                <div class="dropdown-menu">
-                                                                    <a class="dropdown-item d-flex align-items-center justify-content-between" href="javascript:void(0)">
-                                                                        Remove from collection <i class="la la-eye-slash"></i>
-                                                                    </a>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div><!-- end card-image -->
-                                                    <div class="card-content p-4">
-                                                        <h3 class="card__title mt-0">
-                                                            <a href="lesson-details.html">The Complete Financial Analyst Course 2020</a>
-                                                        </h3>
-                                                        <p class="card__author">
-                                                            <a href="teacher-detail.html">Hussain Rubaye</a>
-                                                            <span>, Software Engineer and Developer</span>
-                                                        </p>
-                                                        <div class="course-complete-bar-2 mt-2">
-                                                            <div class="progress-item mb-0">
-                                                                <p class="skillbar-title">Complete:</p>
-                                                                <div class="skillbar-box mt-1">
-                                                                    <div class="skillbar" data-percent="0%">
-                                                                        <div class="skillbar-bar skillbar-bar-1"></div>
-                                                                    </div> <!-- End Skill Bar -->
-                                                                </div>
-                                                                <div class="skill-bar-percent">0%</div>
-                                                            </div>
-                                                        </div><!-- end course-complete-bar-2 -->
-                                                        <div class="rating-wrap d-flex mt-3">
-                                                            <a href="lesson-details.html" class="btn rating-btn">
-                                                                <i class="la la-eye mr-1"></i>Start course
-                                                            </a>
-                                                        </div><!-- end rating-wrap -->
-                                                    </div><!-- end card-content -->
-                                                </div><!-- end card-item -->
-                                            </div><!-- end col-lg-4 -->
-                                            <div class="col-lg-4 column-td-half">
-                                                <div class="card-item">
-                                                    <div class="card-image">
-                                                        <a href="lesson-details.html" class="card__img">
-                                                            <img src="images/img10.jpg" alt="">
-                                                            <div class="play-button">
-                                                                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="-307.4 338.8 91.8 91.8" style=" enable-background:new -307.4 338.8 91.8 91.8;" xml:space="preserve">
-                                                                    <style type="text/css">
-                                                                        .st0{opacity:0.6;fill:#000000;border-radius: 100px;enable-background:new;}
-                                                                        .st1{fill:#FFFFFF;}
-                                                                    </style>
-                                                                    <g>
-                                                                        <circle class="st0" cx="-261.5" cy="384.7" r="45.9"/><path class="st1" d="M-272.9,363.2l35.8,20.7c0.7,0.4,0.7,1.3,0,1.7l-35.8,20.7c-0.7,0.4-1.5-0.1-1.5-0.9V364C-274.4,363.3-273.5,362.8-272.9,363.2z"/>
-                                                                    </g>
-                                                                </svg>
-                                                            </div>
-                                                        </a>
-                                                        <div class="msg-action-dot my-course-action-dot">
-                                                            <div class="dropdown">
-                                                                <a class="action-dot btn" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                                    <i class="la la-ellipsis-v"></i>
-                                                                </a>
-                                                                <div class="dropdown-menu">
-                                                                    <a class="dropdown-item d-flex align-items-center justify-content-between" href="javascript:void(0)">
-                                                                        Remove from collection <i class="la la-eye-slash"></i>
-                                                                    </a>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div><!-- end card-image -->
-                                                    <div class="card-content p-4">
-                                                        <h3 class="card__title mt-0">
-                                                            <a href="lesson-details.html">Ninja Writing: The Four Levels Of Writing Mastery</a>
-                                                        </h3>
-                                                        <p class="card__author">
-                                                            <a href="teacher-detail.html">alex smith</a>
-                                                            <span>, Developer, Team Lead, Software Consultant, Loves Technology</span>
-                                                        </p>
-                                                        <div class="course-complete-bar-2 mt-2">
-                                                            <div class="progress-item mb-0">
-                                                                <p class="skillbar-title">Complete:</p>
-                                                                <div class="skillbar-box mt-1">
-                                                                    <div class="skillbar" data-percent="0%">
-                                                                        <div class="skillbar-bar skillbar-bar-1"></div>
-                                                                    </div> <!-- End Skill Bar -->
-                                                                </div>
-                                                                <div class="skill-bar-percent">0%</div>
-                                                            </div>
-                                                        </div><!-- end course-complete-bar-2 -->
-                                                        <div class="rating-wrap d-flex mt-3">
-                                                            <a href="lesson-details.html" class="btn rating-btn">
-                                                                <i class="la la-eye mr-1"></i>Start course
-                                                            </a>
-                                                        </div><!-- end rating-wrap -->
-                                                    </div><!-- end card-content -->
-                                                </div><!-- end card-item -->
-                                            </div><!-- end col-lg-4 -->
-                                        </div><!-- end row -->
-                                    </div>
-                                </div><!-- end my-collection-item -->
-                            </div>
-                        </div><!-- end tab-pane -->
+                         
                         <div role="tabpanel" class="tab-pane fade" id="wishlist">
                             <div class="my-wishlist-wrap">
                                 <div class="my-wishlist-info d-flex align-items-center justify-content-between">

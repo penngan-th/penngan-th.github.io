@@ -653,6 +653,10 @@
       }
     }
   }
+ /*  @media #{$small_mobile_four} {
+     
+    display: none;
+  } */
 }
 .question-overview-result-header {
   @media #{$small_mobile_four} {
@@ -1279,6 +1283,7 @@
   }
   .lecture-overview-item {
     @media #{$large_mobile_three} {
+     
       padding-top: 20px;
     }
     .my-course-search-content {
