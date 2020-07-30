@@ -1436,7 +1436,7 @@ body {
 }
 
 .section__title {
-  font-size: 4.2rem;
+  font-size: 3.6rem;
   font-weight: 700;
 }
 
@@ -1489,7 +1489,7 @@ body {
 }
 
 .section_title_white {
-  font-size: 2.5rem;
+  font-size: 3.6rem;
   color: #fff;
   font-weight: 700;
 }
@@ -1514,6 +1514,67 @@ body {
 
 @media only screen and (min-width: 320px) and (max-width: 479px) {
   .section_title_white br {
+    display: none;
+  }
+}
+
+.section_title_sm {
+  font-size: 2.1rem;
+  color: #003853;
+  font-weight: 700;
+  line-height: 2px;
+}
+
+@media (max-width: 575px) {
+  .section_title_sm {
+    font-size: 2.4rem;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .section_title_sm br {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .section_title_sm br {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  .section_title_sm br {
+    display: none;
+  }
+}
+
+.section_title_white_sm {
+  font-size: 2.5rem;
+  color: #fff;
+  font-weight: 700;
+}
+
+@media (max-width: 575px) {
+  .section_title_white_sm {
+    font-size: 2.4rem;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .section_title_white_sm br {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .section_title_white_sm br {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  .section_title_white_sm br {
     display: none;
   }
 }
@@ -2690,7 +2751,8 @@ body {
 
 /*---------------- theme-btn ----------------*/
 .theme-btn {
-  font-size: 1.3rem;
+  font-size: 1.4rem;
+  letter-spacing: 1px;
   text-transform: uppercase;
   background-color: #FF6745;
   color: #fff;
@@ -4067,7 +4129,7 @@ body {
 }
 
 .meta-data .comment__author {
-  font-size: 1.6rem;
+  font-size: 1.3rem;
   text-transform: capitalize;
   color: #003853;
   display: inline-block;
@@ -5777,21 +5839,25 @@ body {
 /*====================================================
     about-area
  ====================================================*/
+.img-box {
+  margin-top: 55px;
+}
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .img-box {
-    margin-top: 55px;
+    margin-top: 0px;
   }
 }
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
   .img-box {
-    margin-top: 55px;
+    margin-top: 0px;
   }
 }
 
 @media only screen and (min-width: 320px) and (max-width: 479px) {
   .img-box {
-    margin-top: 55px;
+    margin-top: 0px;
   }
 }
 
@@ -6337,23 +6403,31 @@ body {
 .benefit-area {
   position: relative;
   z-index: 1;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 1, 0)), to(white)), url("../images/reward.png");
+  background-image: linear-gradient(rgba(0, 0, 1, 0) 0%, white 100%), url("../images/reward.png");
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .benefit-area {
-    padding-bottom: 120px;
+    padding-bottom: 80px;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 1, 0)), to(white));
+    background-image: linear-gradient(rgba(0, 0, 1, 0) 0%, white 100%);
   }
 }
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
   .benefit-area {
-    padding-bottom: 120px;
+    padding-bottom: 80px;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 1, 0)), to(white));
+    background-image: linear-gradient(rgba(0, 0, 1, 0) 0%, white 100%);
   }
 }
 
 @media only screen and (min-width: 320px) and (max-width: 479px) {
   .benefit-area {
-    padding-bottom: 120px;
+    padding-bottom: 80px;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 1, 0)), to(white));
+    background-image: linear-gradient(rgba(0, 0, 1, 0) 0%, white 100%);
   }
 }
 
@@ -6371,8 +6445,37 @@ body {
   opacity: 0.1;
 }
 
+@media (max-width: 1199px) {
+  .benefit-area .btn-box {
+    margin-top: 30px;
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .benefit-area .btn-box {
+    margin-top: 30px;
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .benefit-area .btn-box {
+    margin-top: 30px;
+    text-align: center;
+  }
+}
+
 @media only screen and (min-width: 320px) and (max-width: 479px) {
   .benefit-area .btn-box {
+    margin-top: 30px;
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  .benefit-area .btn-box {
+    margin-top: 30px;
     text-align: center;
   }
 }
@@ -7629,6 +7732,60 @@ body {
 }
 
 /********** EDIT **********/
+/*================================================
+Coming Soon CSS
+=================================================*/
+.coming-soon-area {
+  height: 100vh;
+  position: relative;
+  z-index: 1;
+}
+
+.coming-soon-content {
+  max-width: 850px;
+  border-radius: 5px;
+  overflow: hidden;
+  text-align: center;
+  -webkit-box-shadow: 1px 5px 24px 0 rgba(68, 102, 242, 0.05);
+          box-shadow: 1px 5px 24px 0 rgba(68, 102, 242, 0.05);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.coming-soon-content .logo {
+  display: inline-block;
+}
+
+.coming-soon-content h2 {
+  font-weight: 700;
+  margin-top: 30px;
+  margin-bottom: 0;
+}
+
+.coming-soon-content #timer {
+  margin-top: 40px;
+}
+
+.coming-soon-content #timer div {
+  background-color: #333333;
+  color: #fff;
+  width: 120px;
+  height: 140px;
+  border-radius: 10px;
+  font-size: 60px;
+  font-weight: 800;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 20px;
+}
+
+.coming-soon-content #timer div span {
+  display: block;
+  margin-top: 20px;
+  font-size: 30px;
+  font-weight: 500;
+}
+
 .section-featured-movies-carousel {
   padding: 40px 0 50px;
   margin-bottom: 38px;
@@ -9577,8 +9734,8 @@ body {
 }
 
 .post-card .img-fluid {
-  width: 150px;
-  height: 150px;
+  width: 180px;
+  height: 180px;
   border-radius: 50%;
   -webkit-box-shadow: 0 0 40px rgba(82, 85, 90, 0.1);
   box-shadow: 0 0 40px rgba(82, 85, 90, 0.1);
@@ -13421,9 +13578,9 @@ body {
 }
 
 .single-slide-item .section-heading .section__desc_white {
-  font-size: 2.2rem;
+  font-size: 2.5rem;
   line-height: 32px;
-  margin-bottom: 20px;
+  margin-bottom: 24px;
 }
 
 @media only screen and (min-width: 320px) and (max-width: 479px) {
@@ -13437,7 +13594,7 @@ body {
 .single-slide-item .section-heading .section__logo {
   height: 100px;
   width: auto;
-  margin-bottom: 90px;
+  margin-bottom: 60px;
 }
 
 @media only screen and (min-width: 320px) and (max-width: 479px) {
@@ -15822,6 +15979,24 @@ body {
   opacity: 0.8;
 }
 
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .review-rating-inner__item .review-rating-rate__item-percent-text {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .review-rating-inner__item .review-rating-rate__item-percent-text {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  .review-rating-inner__item .review-rating-rate__item-percent-text {
+    display: none;
+  }
+}
+
 /*================ course-dashboard-container ===================*/
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .course-dashboard-container {
@@ -15982,7 +16157,7 @@ body {
 
 /*================ lecture-video-detail-body ===================*/
 .lecture-video-detail-body {
-  padding: 20px 50px 50px 50px;
+  padding: 0px 0px 0px 0px;
 }
 
 @media (max-width: 1366px) {
@@ -15995,22 +16170,22 @@ body {
 /*================ lecture-overview-wrap ===================*/
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .mobile-course-content-wrap {
-    padding-right: 50px;
-    padding-left: 50px;
+    padding-right: 0px;
+    padding-left: 0px;
   }
 }
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
   .mobile-course-content-wrap {
-    padding-right: 50px;
-    padding-left: 50px;
+    padding-right: 0px;
+    padding-left: 0px;
   }
 }
 
 @media (max-width: 575px) {
   .mobile-course-content-wrap {
-    padding-right: 15px;
-    padding-left: 15px;
+    padding-right: 0px;
+    padding-left: 0px;
   }
 }
 

@@ -194,9 +194,9 @@
       }
     }
     .section__desc_white {
-      font-size: $display-9;
+      font-size: $display-6;
       line-height: 32px;
-      margin-bottom: 20px;
+      margin-bottom: 24px;
     
       @media #{$small_mobile} {
         text-align: left;
@@ -207,7 +207,7 @@
     .section__logo {
       height: 100px; 
       width: auto;
-      margin-bottom: 90px;
+      margin-bottom: 60px;
       @media #{$small_mobile} {
         text-align: left;
         height: 60px; 

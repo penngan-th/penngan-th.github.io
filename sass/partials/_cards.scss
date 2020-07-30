@@ -523,8 +523,8 @@
     padding: 25px !important;
   }
   .img-fluid {
-    width: 150px;
-    height: 150px;
+    width: 180px;
+    height: 180px;
     @include border-radius(50%);
     @include box-shadow(0 0 40px rgba(82, 85, 90, 0.1));
     border: 5px solid $white;

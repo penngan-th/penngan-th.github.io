@@ -453,6 +453,16 @@
   }
   .review-rating-rate__item-percent-text {
     opacity: 0.8;
+
+    @media #{$tab_device} {
+      display: none;
+    }
+    @media #{$large_mobile} {
+      display: none;
+    }
+    @media #{$small_mobile} {
+      display: none;
+    }
   }
 }
 /*================ course-dashboard-container ===================*/
@@ -568,7 +578,7 @@
 
 /*================ lecture-video-detail-body ===================*/
 .lecture-video-detail-body {
-  padding: 20px 50px 50px 50px;
+  padding: 0px 0px 0px 0px;
   @media #{$laptop_m} {
     padding-right: 0;
     padding-left: 0;
@@ -578,16 +588,16 @@
 /*================ lecture-overview-wrap ===================*/
 .mobile-course-content-wrap {
   @media #{$tab_device} {
-    padding-right: 50px;
-    padding-left: 50px;
+    padding-right: 0px;
+    padding-left: 0px;
   }
   @media #{$large_mobile} {
-    padding-right: 50px;
-    padding-left: 50px;
+    padding-right: 0px;
+    padding-left: 0px;
   }
   @media #{$large_mobile_three} {
-    padding-right: 15px;
-    padding-left: 15px;
+    padding-right: 0px;
+    padding-left: 0px;
   }
 }
 

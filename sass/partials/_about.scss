@@ -2,14 +2,15 @@
     about-area
  ====================================================*/
 .img-box {
+  margin-top: 55px;
   @media #{$tab_device} {
-    margin-top: 55px;
+    margin-top: 0px;
   }
   @media #{$large_mobile} {
-    margin-top: 55px;
+    margin-top: 0px;
   }
   @media #{$small_mobile} {
-    margin-top: 55px;
+    margin-top: 0px;
   }
   img {
     width: 100%;
@@ -407,14 +408,18 @@
 .benefit-area {
   position: relative;
   z-index: 1;
+  background-image: linear-gradient(rgba(0,0,1,0) 0%, rgb(255, 255, 255) 100%),url("../images/reward.png");
   @media #{$tab_device} {
-    padding-bottom: 120px;
+    padding-bottom: 80px;
+    background-image: linear-gradient(rgba(0,0,1,0) 0%, rgb(255, 255, 255) 100%);
   }
   @media #{$large_mobile} {
-    padding-bottom: 120px;
+    padding-bottom: 80px;
+    background-image: linear-gradient(rgba(0,0,1,0) 0%, rgb(255, 255, 255) 100%);
   }
   @media #{$small_mobile} {
-    padding-bottom: 120px;
+    padding-bottom: 80px;
+    background-image: linear-gradient(rgba(0,0,1,0) 0%, rgb(255, 255, 255) 100%);
   }
   &:after {
     position: absolute;
@@ -430,7 +435,25 @@
     opacity: 0.1;
   }
   .btn-box {
+   
+    @media #{$laptop_m_four} {
+      margin-top: 30px;
+      text-align: center;
+    }
+    @media #{$tab_device} {
+      margin-top: 30px;
+      text-align: center;
+    }
+    @media #{$large_mobile} {
+      margin-top: 30px;
+      text-align: center;
+    }
     @media #{$small_mobile} {
+      margin-top: 30px;
+      text-align: center;
+    }
+    @media #{$small_mobile} {
+      margin-top: 30px;
       text-align: center;
     }
   }
